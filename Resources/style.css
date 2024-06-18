@@ -75,17 +75,6 @@ header ul{
     box-sizing: border-box;
 }
 
-button{
-    background-color: #f7a39b;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover{
-    background-color: #ec8076;
-    transition: background-color 150ms ease-out;
-}
-
 .navbuttonint{
     grid-area: button;
     display: flex;
@@ -880,6 +869,10 @@ footer h5{
     .services-top {
         display: flex;
     }
+
+    .socialbuttons-mobile{
+        display: none;
+    }
 }
 
 
@@ -915,6 +908,48 @@ footer h5{
 
     .fa-bars {
         grid-area: button;
+    }
+
+    .dropbtn {
+        border: none;
+        cursor: pointer;
+        padding: 12px 16px;
+      }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown-content a:hover {background-color: #ddd;}
+
+      .show {display:block;}
+
+     .header-mobile button{
+        border: none;
+        cursor: pointer;
+        height: 13px;
+        background-color: white;
+    }
+    
+    .header-mobile button:hover{
+        transition: background-color 150ms ease-out;
     }
 
     /* Jumbotron */
@@ -1006,6 +1041,11 @@ footer h5{
         padding: .1rem 0 0 0;
     }
 
+    .yelpt {
+        padding-left: 0;
+        margin-top: -0.5rem;
+    }
+
     .reviews {
         display: flex;
         flex-wrap: wrap;
@@ -1018,6 +1058,11 @@ footer h5{
         justify-items: end;
         height: 22vh;
         justify-content: space-between;
+    }
+
+    .reviews h1 {
+        width: 44%;
+        font-size: 1.9rem;
     }
 
     .reviews a{
@@ -1105,7 +1150,7 @@ footer h5{
         font-weight: 100;
         height: 6vh;
         padding: 0 .5rem;
-        font-size: .8rem;
+        font-size: .7rem;
         color: #181818;
         text-decoration: none;
         display: flex;
@@ -1281,10 +1326,33 @@ footer h5{
         width: 100%;
     }
 
+    .footerlogo img{
+        width: 90%;
+    }
+
+    .footer p{
+        font-size: 1rem;
+    }
+
+    .socialbuttons-desktop{
+        display: none;
+    }
+    
     .footercontents {
         display: flex;
         flex-direction: column;
     }
 
+    footer a {
+        font-size: 1.1rem;
+    }
+
+    .footeraddress {
+        padding: 1rem 0;
+    }
+
+    .allrights {
+        padding-top: .5rem;
+    }
 
 }
