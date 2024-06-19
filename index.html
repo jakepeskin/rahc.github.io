@@ -41,7 +41,7 @@
         </div>
         <div class="header-mobile">
             <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn"><i class="fa-solid fa-bars fa-xl"></i></button>
+                <button onclick="myFunction()" class="dropbtn"><i class="fa-solid fa-bars fa-xl" style="pointer-events: none;" ></i></button>
                 <div id="myDropdown" class="dropdown-content">
                   <a href="#">Home</a>
                   <a href="#">About</a>
@@ -57,8 +57,6 @@
         function myFunction() {
             document.getElementById("myDropdown").classList.toggle("show");
           }
-          
-          // Close the dropdown menu if the user clicks outside of it
           window.onclick = function(event) {
             if (!event.target.matches('.dropbtn')) {
               var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -333,11 +331,9 @@
         </section>
 
 
-      <section class="mobile-button" style="top: 692.1">
+      <section class="mobile-button">
         <a href="tel:323-937-3022"><i class="fa-solid fa-phone-volume"></i>Call Us</a>
       </section>
-
-
     </main>
   </body>
 
