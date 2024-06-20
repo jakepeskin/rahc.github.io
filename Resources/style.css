@@ -4,12 +4,12 @@ html{
     --body-font: futura;
 }
 
-h1 {
+h2 {
     font-size: 1.15rem;
     margin: .5rem .3rem;
 }
 
-h2 {
+h3 {
     font-size: 1.6rem;
     font-weight: 500;
 }
@@ -26,6 +26,9 @@ p{
     line-height: 1.7rem;
 }
 
+a {
+    text-decoration: none;
+}
 
 /* Header */
 
@@ -91,7 +94,7 @@ header ul{
     cursor: pointer;
 }
 
-.navbutton h1{
+.navbutton h2{
     font-size: 1.1rem;
     font-weight: 100;
     font-family: var(--body-font);
@@ -110,7 +113,7 @@ header ul{
     transition: opacity 150ms ease-out, transform 150ms ease-out;
 }
 
-.navbutton h1{
+.navbutton h2{
     position: relative;
     z-index: 23;
 }
@@ -159,7 +162,7 @@ header ul{
     margin-top: -.75rem;
 }
 
-.jumbotron h1{
+.jumbotron h2{
     font-size: 3.4rem;
     padding-bottom: 1.2rem;
     color: white;
@@ -218,7 +221,7 @@ header ul{
     background: radial-gradient(closest-corner, #f7f7f7, #FFFFFF);
 }
 
-.accolades-desktop h3{
+.accolades-desktop h4{
     margin: 0 0 2rem .5rem;
     font-weight: 100;
     font-size: 1.3rem;
@@ -249,7 +252,7 @@ header ul{
 
 }
 
-.reviews h1{
+.reviews h2{
     font-size: 2.2rem;
     margin: 0 auto;
     color: rgb(52, 44, 0)
@@ -299,7 +302,7 @@ header ul{
     margin: 9rem auto 9rem auto;
 }
 
-.descrip-desktop h1{
+.descrip-desktop h2{
     font-size: 2.3rem;
 }
 
@@ -387,7 +390,7 @@ header ul{
     filter: drop-shadow(0px 10px 5px rgb(132, 132, 132, .1));
 }
 
-.services h1{
+.services-top h2{
     font-size: 1.6rem;
     padding: 0 0 .5rem 0;
     margin: 0;
@@ -400,122 +403,92 @@ header ul{
     margin: 2rem 0;
 }
 
-.caretypes-desktop{
+.caretypes{
     display: flex;
     flex-wrap: wrap;
     height: 95%;
     justify-content: space-evenly;
+    text-align: center;
     padding: 4rem 0 0 0;
+}
+
+.DLs{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.DLs a{
+    border: 2px solid #f7a39b;
+    border-radius: 10px;
 }
 
 .caretype {
     text-align: center;
     background-color: #eee;
-    border: 2px solid #f7a39b;
     border-radius: 10px;
     width: 38%;
 }
 
-.caretype h1{
-    padding-bottom: 0;
-    font-size: 2.3rem;
+.caretypes-title{
+    padding: 3rem 0 2rem 0;
 }
 
-.caretype-header{
-    padding: 3rem 3rem;
-}
-
-.caretypecontents{
+.caretypes-title h2{
+    font-size: 2rem;
+    padding-bottom: 1rem;
     
-}
-
-.alarm {
-    background-image: url("https://lh3.googleusercontent.com/drive-viewer/AKGpihZ50lxfzlSxgv61dYAgDah5MD2Snv_V1fWK_QFpUt8C6fc0M-w6kHdF0ZntFVkBoXQj7g3w3mBrqMhuJk0g1ABifQ-rXhTG1lE=s1600-rw-v1");
-    background-size: cover;
-}
-
-.transfer {
-    background-image: url("https://lh3.googleusercontent.com/drive-viewer/AKGpihbg9ntPMQqYPm1b9XhmMPswnGB7WYVTXUNJ8aNoOHFKzgAxL970jNgUbpOR-xWKV4zzptsjt6NfCPRg8JCCKbEIFmie9ntZQc0=s1600-rw-v1");
-    background-size: cover;
 }
 
 .caretype h2{
-    font-size: 1.3rem;
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+    color: white;
 }
 
-.type1{
+.caretype h3{
+    color: black;
+}
+
+.adl h2{
+    width: 76%;
+}
+
+.caretype-header.adl{
+    flex-shrink: 2;
+}
+
+.caretype-header{
+    padding: .5rem 3rem;
+    text-align: center;
     display: flex;
-    width: 18%;
-    align-items: start;
-    border: 1px solid #fab5af;
-    border-radius: 10px;
-    background-color: #93939310;
-}
-
-.type1:hover{
-   color: #f05a4d;
-   transform: translate(0px, -.25rem);
-   transition: transform 100ms ease-in;
-}
-
-.type2{
-    display: flex;
-    width: 18%;
-    align-items: start;
-    border: 1px solid #fab5af;
-    border-radius: 10px;
-    background-color: #93939310;
-    
-}
-
-.type2:hover{
-    color: #f05a4d;
-    transform: translate(0px, -.25rem);
-    transition: transform 100ms ease-in;
- }
-
-.type3{
-    display: flex;
-    width: 18%;
-    align-items: start;
-    border: 1px solid #fab5af;
-    border-radius: 10px;
-    background-color: #93939310;
-}
-
-.type3:hover{
-    color: #f05a4d;
-    transform: translate(0px, -.25rem);
-    transition: transform 100ms ease-in;
- }
-
-.type4{
-    display: flex;
-    flex-wrap: wrap;
-    width: 18%;
-    align-items: start;
-    border: 1px solid #fab5af;
-    border-radius: 10px;
-    background-color: #93939310;
-}
-
-.type4:hover{
-    color: #f05a4d;
-    transform: translate(0px, -.25rem);
-    transition: transform 100ms ease-in;
- }
-
-
-.caretypes-desktop a{
-    font-weight: 100;
-    padding: 0 1.5rem;
-    font-size: .9rem;
-    color: #181818;
-    text-decoration: none;
-    display: flex;
+    flex-direction: column;
     align-items: center;
-    max-width: 100%;
-    justify-content: space-evenly;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.caretype-header.adl {
+    background-image: url("https://lh3.googleusercontent.com/drive-viewer/AKGpihbzI-U6joZtOa6gbIMAUu0hOhF3k0pzht-hRkawJ953_MEX-X8h-ztMEWNkO3iMT7izlUEx1WNRKKboLed8UofUcmEbeEnGlw=s1600-rw-v1");
+    background-size: cover;
+}
+
+.caretype-header.iadl {
+    background-image: url("https://lh3.googleusercontent.com/drive-viewer/AKGpihb0kPv8lxO-gPZUnNrUQUxIsOhaWVbtyb6xytgr4YCwZ6Us3vjn3HzTjVwetTQfTsro1zBv74jJ4gdh3EQDCRbrEnXPE6vv2ik=s1600-rw-v1");
+    background-size: cover;
+}
+
+.caretype-header.specialty {
+    background-image: url("https://lh3.googleusercontent.com/drive-viewer/AKGpihYd0d0Jq--TyRxwtm4sOtl0Xzcj0VGkkhSpRDnuGadg54sWZudQhim-vdnYwSfNxvdWTGD-L3pOWt8xLMBbv2keD6CGwAzZCzo=s1600-rw-v1");
+    background-size: cover;
+}
+
+.caretype-contents h3::before{
+    content: 
+}
+
+.caretype h3{
+    font-size: 1.3rem;
 }
 
 .fa-angle-right{
@@ -571,7 +544,7 @@ header ul{
 /* FAQs */
 
 
-.faqtext h1{
+.faqtext h2{
     font-size: 2rem;
     margin: 0;
 }
@@ -697,7 +670,7 @@ header ul{
     
 }
 
-.blog-section h1{
+.blog-section h2{
     font-size: 2.3rem;
 }
 
@@ -852,7 +825,7 @@ header ul{
     object-fit: fill;
  }
 
-footer h1{
+footer h2{
     background-color: #f7a39b73;
     padding: 0.2rem 0 .2rem .2rem;
     width: 68%;
@@ -1026,15 +999,15 @@ footer h5{
         margin: 1.5rem auto
     }
 
-    .descrip-mobile h1{
+    .descrip-mobile h2{
         margin: 3rem .3rem .5rem .3rem;
     }
 
-    .descrip-mobile h1{
+    .descrip-mobile h2{
         font-size: 2rem;
     }
 
-    .caretypes h3{
+    .caretypes h4{
         font-size: 1rem;
     }
 
@@ -1058,7 +1031,7 @@ footer h5{
         width: 85%;
     }
     
-    .accolades-mobile h3{
+    .accolades-mobile h4{
         margin: 0 0 2rem .5rem;
         font-weight: 100;
         font-size: 1.3rem;
@@ -1102,7 +1075,7 @@ footer h5{
         justify-content: space-between;
     }
 
-    .reviews h1 {
+    .reviews h2 {
         width: 44%;
         font-size: 1.9rem;
     }
@@ -1320,7 +1293,7 @@ footer h5{
         gap: 1rem;
     }
 
-    .mobile-blogs h3{
+    .mobile-blogs h4{
         width: 60%;
         font-size: 1.7rem;
     }
