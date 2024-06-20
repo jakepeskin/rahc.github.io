@@ -411,17 +411,32 @@ header ul{
 .caretype {
     text-align: center;
     background-color: #eee;
-    padding: 1.5rem 2.5rem;
     border: 2px solid #f7a39b;
     border-radius: 10px;
+    width: 38%;
+}
+
+.caretype h1{
+    padding-bottom: 0;
+    font-size: 2.3rem;
 }
 
 .caretype-header{
-
+    padding: 3rem 3rem;
 }
 
-.alarm{
-    background-image: ;
+.caretypecontents{
+    
+}
+
+.alarm {
+    background-image: url("https://lh3.googleusercontent.com/drive-viewer/AKGpihZ50lxfzlSxgv61dYAgDah5MD2Snv_V1fWK_QFpUt8C6fc0M-w6kHdF0ZntFVkBoXQj7g3w3mBrqMhuJk0g1ABifQ-rXhTG1lE=s1600-rw-v1");
+    background-size: cover;
+}
+
+.transfer {
+    background-image: url("https://lh3.googleusercontent.com/drive-viewer/AKGpihbg9ntPMQqYPm1b9XhmMPswnGB7WYVTXUNJ8aNoOHFKzgAxL970jNgUbpOR-xWKV4zzptsjt6NfCPRg8JCCKbEIFmie9ntZQc0=s1600-rw-v1");
+    background-size: cover;
 }
 
 .caretype h2{
