@@ -396,7 +396,7 @@ header ul{
     margin: 0;
 }
 
-.services .tinyrect{
+.services-top .tinyrect{
     width: 10%;
     height: 1.5%;
     background-color: #f7a39bcd;
@@ -405,15 +405,15 @@ header ul{
 
 .caretypes{
     display: flex;
-    flex-wrap: wrap;
-    height: 95%;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
+    align-content: center;
     text-align: center;
-    padding: 4rem 0 0 0;
+    padding: 7rem 0 0 0;
 }
 
 .DLs{
-    width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -421,28 +421,45 @@ header ul{
 .DLs a{
     border: 2px solid #f7a39b;
     border-radius: 10px;
+    filter: drop-shadow(0px 10px 5px rgb(132, 132, 132, .1));
+}
+
+.Dls a:hover{
+    filter: drop-shadow(0px 10px 5px rgb(132, 132, 132, .3));
 }
 
 .caretype {
     text-align: center;
     background-color: #eee;
     border-radius: 10px;
-    width: 38%;
+    width: 32%;
+    box-sizing: border-box;
 }
 
 .caretypes-title{
-    padding: 3rem 0 2rem 0;
+    padding: 3rem 3.5rem 0;
+    width: 85%;
+    box-sizing: border-box;
+}
+
+.caretypes-title p{
+    padding-bottom: 1.5rem;
+}
+
+.caretypes-title .tinyrect{
+    height: 5px;
+    margin: 1.75rem auto;
+    width: 6%;
 }
 
 .caretypes-title h2{
     font-size: 2rem;
-    padding-bottom: 1rem;
     
 }
 
 .caretype h2{
     padding-bottom: .5rem;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     color: white;
 }
 
@@ -450,9 +467,6 @@ header ul{
     color: black;
 }
 
-.adl h2{
-    width: 76%;
-}
 
 .caretype-header.adl{
     flex-shrink: 2;
@@ -471,6 +485,7 @@ header ul{
 .caretype-header.adl {
     background-image: url("https://lh3.googleusercontent.com/drive-viewer/AKGpihbzI-U6joZtOa6gbIMAUu0hOhF3k0pzht-hRkawJ953_MEX-X8h-ztMEWNkO3iMT7izlUEx1WNRKKboLed8UofUcmEbeEnGlw=s1600-rw-v1");
     background-size: cover;
+    box-sizing: border-box;
 }
 
 .caretype-header.iadl {
@@ -478,13 +493,14 @@ header ul{
     background-size: cover;
 }
 
-.caretype-header.specialty {
+.caretype-header.specialized {
     background-image: url("https://lh3.googleusercontent.com/drive-viewer/AKGpihYd0d0Jq--TyRxwtm4sOtl0Xzcj0VGkkhSpRDnuGadg54sWZudQhim-vdnYwSfNxvdWTGD-L3pOWt8xLMBbv2keD6CGwAzZCzo=s1600-rw-v1");
     background-size: cover;
 }
 
 .caretype-contents h3::before{
-    content: url{""}
+    content: url("https://jakepeskin.github.io/Resources/SVGs/orange-check.png");
+    margin-right: .5rem;
 }
 
 .caretype h3{
@@ -504,6 +520,7 @@ header ul{
 .accolades2{
     display: flex;
     margin: 11rem auto;
+    padding: 1.5rem 5rem 1.5rem 5rem;
     width: 50%;
     border-top: 1px solid rgb(166, 166, 166, 0.3);
     border-bottom: 1px solid rgb(166, 166, 166, 0.3);
@@ -993,6 +1010,7 @@ footer h5{
     .descrip-mobile {
         text-align: center;   
         padding-top: 3rem; 
+        padding-bottom: 1.5rem;
     }
 
     .descrip-mobile .tinyrect{
@@ -1133,6 +1151,7 @@ footer h5{
     .services-top {
         display: flex;
         flex-direction: column;
+        padding-top: 2rem;
     }
 
     .services-bottom-mobile {
@@ -1151,28 +1170,27 @@ footer h5{
         margin: 1.3rem auto;
     }
 
-    .caretypes-mobile {
-        padding-top: 1.5rem;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        height: 20vh;
-        align-content: space-around;
-        justify-content: space-between;
+    .caretypes {
+        padding: 4rem 0 1rem 0;
     }
 
-    .caretypes-mobile a{
-        font-weight: 100;
-        height: 6vh;
-        padding: 0 .5rem;
-        font-size: .7rem;
-        color: #181818;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        max-width: 100%;
-        justify-content: space-evenly;
+
+    .caretypes-title{
+        width: 100%;
+        padding-top: 1.5rem
     }
+
+    .caretype{
+        width: 88%;
+    }
+
+    .DLs {
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+
 
     /* Accolades 2 */
 
