@@ -437,13 +437,9 @@ header ul{
 }
 
 .caretypes-title{
-    padding: 3rem 3.5rem 0;
+    padding: 3rem 0 1.5rem 0;
     width: 85%;
     box-sizing: border-box;
-}
-
-.caretypes-title p{
-    padding-bottom: 1.5rem;
 }
 
 .caretypes-title .tinyrect{
