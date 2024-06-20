@@ -1176,6 +1176,10 @@ footer h5{
         padding-top: 1.5rem
     }
 
+    .caretypes-title p{
+        display: none;
+    }
+
     .caretype{
         width: 88%;
     }
@@ -1185,6 +1189,8 @@ footer h5{
         align-items: center;
         gap: 2.5rem;
     }
+
+
 
 
 
