@@ -1,0 +1,12 @@
+.jumbotron{
+    background-image: url(https://jakepeskin.github.io/Subpages/About/Resources/ClassPhoto.jpeg);
+    justify-content: center;
+
+}
+
+.jumbotron h2{
+    width: auto;
+    padding: 11.7rem 0;
+    padding-bottom: 11.7rem;
+
+}
