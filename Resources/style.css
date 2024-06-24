@@ -211,7 +211,7 @@ header ul{
     justify-content: center;
     align-items: center;
     margin: 2.5rem auto 1.5rem auto;
-    padding: 1.5rem 5rem 1.5rem 5rem;
+    padding: 1.5rem 0 1.5rem 0;
     width: 42%;
     border-top: 1px solid rgb(166, 166, 166, 0.3);
     border-bottom: 1px solid rgb(166, 166, 166, 0.3);
@@ -312,6 +312,7 @@ header ul{
     padding: 3rem 0 0 0;
     margin: 0 auto;
     width: 85%;
+    box-sizing: border-box;
 }
 
 .PagePromo-input{
@@ -438,6 +439,10 @@ header ul{
     box-sizing: border-box;
 }
 
+.caretype-contents {
+    padding-bottom: .25rem;
+}
+
 .caretypes-title .tinyrect{
     height: 5px;
     margin: 1.75rem auto;
@@ -447,6 +452,10 @@ header ul{
 .caretypes-title h2{
     font-size: 2rem;
     
+}
+
+.iadl h2{
+    width: 100%;
 }
 
 .caretype h2{
@@ -481,7 +490,7 @@ header ul{
 }
 
 .caretype-header.iadl {
-    background-image: url("https://lh3.googleusercontent.com/drive-viewer/AKGpihb0kPv8lxO-gPZUnNrUQUxIsOhaWVbtyb6xytgr4YCwZ6Us3vjn3HzTjVwetTQfTsro1zBv74jJ4gdh3EQDCRbrEnXPE6vv2ik=s1600-rw-v1");
+    background-image: url("https://lh3.googleusercontent.com/drive-viewer/AKGpihbnulRd2TKeQQ5a1haD8PK_rL8t02B44FgNmWz9Ba8Ve4_FHa7v67dkMcsj_vQpYJBFh9kgAxhMN5qiz9tgMgLG21BpVoNr5to=s1600-rw-v1");
     background-size: cover;
 }
 
@@ -823,9 +832,56 @@ footer h5{
 
 
 
-/* Destkop ONLY */
 
-@media only screen and (min-width: 1024px) {
+
+  /* Desktop ONLY */
+
+@media only screen and (min-width: 1025px) {
+
+    .tablet-mobile {
+        display: none;
+    }
+
+}
+
+/*Small Desktop */
+
+@media only screen and (min-width: 1025px) and (max-width: 1258px) {
+
+    .jumbotroncontents{
+        width: 91%;
+    }
+
+
+    header a{
+        font-size: .8rem;
+    }
+
+    .navbutton h2{
+        font-size: .9rem;
+    }
+    
+    .blog-section a{
+        font-size: 1.1rem;
+    }
+
+    footer a{
+        font-size: 1.1rem;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1198px){
+
+    
+
+    .ziplookup{
+        padding-bottom: 3rem;
+    }
+    
+    .descrip{
+        margin-bottom: 16rem;
+    }
 
 }
 
@@ -835,34 +891,107 @@ footer h5{
     .mobile {
         display: none;
     }
-  
+
 }
 
-/* Mobile ONLY */
-@media only screen and (max-width: 480px){
-    
-    .desktop{
+/* Tablet ONLY */
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+
+    .menu {
+        height: 3.3rem;
+    }
+
+    .logo {
+        max-width: 21%;
+        padding-right: 7rem;
+    }
+
+    .jumbotroncontents {
+        width: 100%;
+    }
+
+    .jumbotron h2{
+        font-size: 2.4rem;
+
+    }
+
+    .jumbotron a{ 
+        font-size: 1rem;
+    }
+
+    .jumbotron img{
+        width: 23%;
+    }
+
+    .accolades{
+        width: 70%;
+    }
+
+    .services {
+        max-width: 85%;
+    }
+
+    .gallery-content {
+        width: 70%;
+    }
+
+    .accolades2{
+        width: 70%;
+    }
+
+    .buttonandmap{
+        height: auto;
+    }
+
+    .buttonandmap img{
         display: none;
     }
 
-    .tinyrect{
-        height: .5vh;
-        margin: 1.5rem auto;
-        width: 10%;
+    .blog-section{
+        width: 85%;
+        height: 25%;
     }
 
-    /* Header */
+    .blogs {
+        height: 135%;
+    }
 
-    .menu.mobile {
-        height: 4.7rem;
+    .blog-section h4{
+        width: 175px;
+    }
+
+    footer a{
+        font-size: 1.1rem;
+    }
+
+    .footercontents{
+        width: 88%;
+    }
+
+    .footerlogo{
+        padding-top: 1rem;
+    }
+
+    .footerlogo img{
+        width: 93%;
+    }
+}
+
+
+/* Tablet + Mobile */
+
+@media only screen and (max-width: 1024px){
+
+     /* Header */
+
+     .menu.desktop {
+        display: none;
+    }
+
+     .menu {
         grid-template-areas: 'button logo';
         grid-template-columns: 1fr 5fr;
-    }
-
-    .logo.mobile {
-        grid-area: logo;
-        width: 42%;
-        padding-right: 3rem;
     }
 
     .fa-bars {
@@ -884,14 +1013,14 @@ footer h5{
     .dropdown-content {
         display: none;
         position: absolute;
-        background-color: #f1f1f1;
+        background-color: white;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
       }
 
     .dropdown-content a {
-        color: black;
+        color: #ae5048;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
@@ -911,6 +1040,42 @@ footer h5{
     .header.mobile button:hover{
         transition: background-color 150ms ease-out;
     }
+
+    /* FAQs Section */
+
+    .faqsection{
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+        margin: 7rem auto;
+    }
+
+    .faqtext {
+        text-align: center;
+    }
+
+}
+
+/* Mobile ONLY */
+@media only screen and (max-width: 480px){
+    
+    .desktop{
+        display: none;
+    }
+
+    .tinyrect{
+        height: .5vh;
+        margin: 1.5rem auto;
+        width: 10%;
+    }
+
+    /* Header */
+
+    .logo {
+        max-width: 52%;
+        padding-right: 3rem;
+    }
+
 
     /* Jumbotron */
 
@@ -1072,6 +1237,12 @@ footer h5{
         margin: 1.3rem auto;
     }
 
+    /* Care Types */
+
+    .caretypes .tinyrect{
+        width: 13%;
+    }
+
     .caretypes {
         padding: 4rem 0 1rem 0;
     }
@@ -1087,7 +1258,7 @@ footer h5{
     }
 
     .caretype{
-        width: 88%;
+        width: 100%;
     }
 
     .DLs {
@@ -1134,17 +1305,6 @@ footer h5{
 
 
     /* FAQs */
-    
-    .faqsection{
-        flex-direction: column;
-        max-width: 100%;
-        align-items: center;
-        margin: 7rem auto;
-    }
-
-    .faqtext {
-        text-align: center;
-    }
 
     .accordion i {
         display: none;
@@ -1254,14 +1414,3 @@ footer h5{
 
 }
 
-/* Tablet Adjustments */
-
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
-    
-    .header .desktop {
-        display: none;
-    }
-
-
-
-  }
