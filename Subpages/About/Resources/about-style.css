@@ -1,5 +1,5 @@
 .jumbotron{
-    background-image: url(https://jakepeskin.github.io/Subpages/About/Resources/ClassPhoto.jpeg);
+    background-image: url(/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Subpages/About/Resources/ClassPhoto.png);
     justify-content: center;
 
 }
@@ -8,5 +8,6 @@
     width: auto;
     padding: 11.7rem 0;
     padding-bottom: 11.7rem;
+    color: #f9c0bb;
 
 }
