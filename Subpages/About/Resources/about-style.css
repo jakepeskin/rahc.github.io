@@ -11,8 +11,24 @@
     color: #f9c0bb;
 }
 
+.headshots{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.headshot h3{
+    font-size: 1.5rem;
+    margin: .25rem 0
+}
+
+.headshot {
+    width: 25%;
+    text-align: center;
+}
+
 .headshot img{
-    width: 18%;
+    width: 70%;
     border: 1px solid #f05e4f;
     border-radius: 150px;
 }
