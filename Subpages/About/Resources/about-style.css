@@ -10,3 +10,9 @@
     padding-bottom: 11.7rem;
     color: #f9c0bb;
 }
+
+.headshot img{
+    width: 18%;
+    border: 1px solid #f05e4f;
+    border-radius: 150px;
+}
