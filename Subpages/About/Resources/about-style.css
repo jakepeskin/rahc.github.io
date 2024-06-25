@@ -1,6 +1,11 @@
+.menu {
+    top: 0;
+}
+
 .jumbotron{
     background-image: url(/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Subpages/About/Resources/ClassPhoto.png);
     justify-content: center;
+    position: relative;
 
 }
 
@@ -11,17 +16,35 @@
     color: #f9c0bb;
 }
 
+.overview{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.overview h2{
+    padding: 2rem 0;
+    font-size: 1.7rem;
+    font-weight: 100;
+    width: 90%
+}
+
 .headshots{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 3rem 0 6rem 0;
     row-gap: 3rem;
-    background-image: url('')
+    background-image: url('/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Subpages/About/Resources/logo-about.png');
+    background-size: cover;
 }
 
 .headshot h3{
-    font-size: 1.5rem;
     margin: .25rem 0
+}
+
+.title {
+    font-size: 1.3rem;
 }
 
 .headshot {

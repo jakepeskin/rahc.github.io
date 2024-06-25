@@ -55,6 +55,7 @@ header{
     z-index: 102;
     padding: 1rem 0 1.5rem 0;
     filter: drop-shadow(0px 5px 5px rgb(132, 132, 132, .1));
+    top: 0;
 }
 
 header a{
