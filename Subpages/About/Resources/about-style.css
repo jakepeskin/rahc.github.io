@@ -66,7 +66,6 @@
 
 .headshot img{
     width: 100%;
-    
     transition: 0.5s all ease-in-out;
     
 }
@@ -86,4 +85,18 @@
 .currentmonth{
     width: 60%;
     padding: 4rem 0;
+}
+
+.pastrecipients{
+    display: flex;
+    width: 83%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.photowrap{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
 }
