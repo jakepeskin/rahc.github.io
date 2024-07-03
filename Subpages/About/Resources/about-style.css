@@ -1,3 +1,26 @@
+html {
+    font-size:16px;
+    font-family:futura;
+    --body-font:futura
+    }
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
+h4 {
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+
+.sectheader{
+    text-align: center;
+}
+
 .menu {
     top: 0;
 }
@@ -5,27 +28,37 @@
 .jumbotron{
     background-image: url(/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Subpages/About/Resources/ClassPhoto.png);
     justify-content: center;
-    position: relative;
-    top: 1rem;
-
+    background-position-y: 7%;
 }
 
 .jumbotron h2{
     width: auto;
-    padding: 12.2rem 0;
-    padding-bottom: 11.7rem;
+    padding: 13.5rem 0;
     color: white;
+}
+
+.accolades{
+    width: 70%;
+    margin: 2.2rem auto 1.5rem auto;
+}
+
+.accolades p{
+    font-size: 1.3rem;
+}
+
+.headshotsect{
+    padding-top: 7rem;
+    width: 78%;
+    margin: auto;
 }
 
 .overview{
     width: 85%;
     margin: 0 auto;
     text-align: center;
-    background-image: url('/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Subpages/About/Resources/logo-about.png');
-    background-size: cover;
 }
 
-.overview h2{
+.overview h3{
     padding: 3rem 0;
     font-size: 1.7rem;
     font-weight: 100;
@@ -38,8 +71,11 @@
     justify-content: space-evenly;
     padding: 3rem 0 6rem 0;
     row-gap: 3rem;
-    width: 51%;
+    width: 70%;
     margin: auto;
+    background: no-repeat url('/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Subpages/About/Resources/logo-about.png');
+    background-position: 50% 25%;
+    background-size: 45%;
    
 }
 
@@ -48,34 +84,188 @@
 }
 
 .title {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
-
 .headshot {
-    width: 33%;
-    text-align: center;
-    
+    width: 23%;
+    text-align: center;   
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center
 }
 
 .headshotwrapper {
-    border: 1px solid #f05e4f;
+    border: 2px solid #f05e4f;
     border-radius: 150px;
     box-sizing: border-box;
     overflow: hidden;
+    margin-bottom: 1rem;
+    filter:drop-shadow(0px 5px 5px #2a2a2a1a);
+    width: 90%;
 }
 
 .headshot img{
     width: 100%;
-    transition: 0.5s all ease-in-out;
+    transition: 0.2s all ease-in-out;
     
 }
 
 .headshot:hover img{
-    transform: scale(1.1);
+    filter:drop-shadow(0px 5px 5px #151515ab);
+}
+
+.break {
+    width: 2%;
+}
+
+.videoreel{
+    width: 90%;
+    padding: 4rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.videoreeltitle{
+    width: 100%;
+    text-align: center;
+}
+
+.videofullcontainer{
+    width: 60%;
+    background-color: #f5d9d5;
+    display: flex;
+    padding: 1.5rem 0;
+    border-radius: 50px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    justify-content: space-evenly;
+    filter:drop-shadow(0px 5px 5px #2a2a2a1a);
+}
+
+.videoreel-text{
+    width: 52%;
+}
+
+.videoreel-text p{
+    padding-top: 2rem;
+}
+
+.videos{
+    width: 29%;
+}
+
+video{
+    width: 100%;
+}
+
+.circlepics{
+    width: 32%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.circlepic {
+    border-radius: 200px;
+    position: relative;
+    border: 3px solid #f7a39b;
+    filter:drop-shadow(0px 5px 5px #2a2a2a1a)
+}
+
+.caregiver.c1 {
+    width: 41%;
+    left: 2rem;
+}
+
+.caregiver.c2 {
+    top: 7rem;
+    width: 48%;
+}
+
+
+.caregiver.c3 {
+    width: 38%;
+    top: -4rem;
+    left: -4rem;
+}
+
+.employee.c1{
+    left: 3rem;
+    width: 48%;
+}
+
+.employee.c2{
+    top: 8rem;
+    width: 38%;
+}
+
+.employee.c3 {
+    width: 41%;
+    top: -5rem;
+    left: -3rem;
+}
+
+.hiring-process {
+    width: 74%;
+    margin: 3rem auto;
+    border: 2px solid #f05e4f;
+    filter:drop-shadow(0px 5px 5px #2a2a2a1a);
+    border-radius: 100px;
+    box-sizing: border-box;
+    padding: 2rem 0;
+    background-color: #fefefe;
+   
+}
+ 
+.hiring-contents{
+    padding: 2.5rem 0 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: no-repeat url('/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Subpages/About/Resources/Logo-hiring.png');
+    background-position: 50% 25%;
+    background-size: 27%;
+}
+
+.hiring-contents h3{
+    font-size: 1.2rem;
+}
+
+.hiring {
+    width: 37%;
+    border-radius: 50px;   
+}
+
+.hiring-list{
+    padding: 0 2rem 0 4rem;
+}
+
+.rose-CareU{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 2rem 0 2rem;
+}
+
+.rose-CareU img{
+    width: 50%;
+    padding-bottom: 1rem;
+}
+
+.hiringcontents svg{
+    width: 7%;
+    fill: #f05e4f;
+    padding: 0 3.5rem;
 }
 
 .caregiversofthemonth {
     text-align: center;
+    padding: 2rem 0 8rem 0;
 }
 
 .caregiversofthemonth h2{
@@ -83,20 +273,178 @@
 }
 
 .currentmonth{
-    width: 60%;
-    padding: 4rem 0;
+    width: 70%;
+    padding: 4rem 0 4rem 0;
+    filter:drop-shadow(0px 5px 5px #2a2a2a1a)
 }
 
-.pastrecipients{
-    display: flex;
-    width: 83%;
-    flex-wrap: wrap;
-    justify-content: center;
+.carousel{
+    width: 60%;
     margin: auto;
 }
 
-.photowrap{
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
+.carousel-cell{
+    padding-right: 1rem;
+}
+
+.flickity-page-dots{
+    display: none;
+}
+
+.flickity-prev-next-button.next{
+    right: -70px !important;
+}
+
+.flickity-prev-next-button.previous {
+    left: -70px !important;
+}
+
+.tinyrect{
+    width: 3%;
+    height: 0.5%;
+    background-color: #f7a39bcd;
+    margin: 1.5rem auto;
+}
+
+
+/** Save for Later
+
+.events{
+    text-align: center;
+    margin: auto;
+}
+
+.alzheimers{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3.5rem 0;
+}
+
+.alzlogo{
+    border: 1px solid #462464;
+}
+
+.alzheimersvid{
+    width: 20%;
+}
+
+.midpics{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.grouphoto1{
+    width: 20%;
+}
+
+.mswalk{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.one-thousand{
+    width: 53%;
+}
+
+.mspics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.right{
+    flex-direction: column;
+    width: 39%;
+}
+
+.left{
+    width: 60%;
+}
+
+.five-hundo{
+    width: 100%;
+}
+
+.break2{
+    width: 0%;
+}
+
+.msvid{
+    width: 45%;
+}
+
+**/
+
+@media only screen and (max-width: 480px) {
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    .jumbotron {
+        background-position: 21% 162%;
+        top: 5rem;
+    }
+
+    .jumbotron h2{
+        padding: 2rem 0 0 0;
+        font-size: 2.4rem;
+    }
+
+    .accolades{
+        margin: 8rem auto 1.5rem auto;
+    }
+
+    .headshotsect{
+        width: 100%;
+    }
+
+    .headshots{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 3rem;
+        background: none;
+    }
+
+    .break{
+        display: none;
+    }
+
+    .headshot{
+        width: 75%;
+    }
+
+    .circlepics{
+        display: none;
+    }
+
+    .videofullcontainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 0;
+    }
+
+    .videos{
+        width: 60%;
+        padding-bottom: 2rem;
+    }
+
+    .videoreel-text{
+        width: 90%;
+        text-align: center;
+    }
+
+    
+
+
 }
