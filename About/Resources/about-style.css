@@ -475,7 +475,19 @@ video{
     }
 
     .hiring{
-        width: 85%;
+        width: 100%;
+    }
+
+    .rose-CareU{
+        padding: 0;
+    }
+
+    .hiring h3{
+        padding: 0 1rem
+    }
+
+    .rose-CareU {
+        padding: 0;
     }
 
     .rose-CareU img {
@@ -577,6 +589,11 @@ video{
 
     .hiring-contents h3{
         font-size: 1rem;
+        padding: 0 2rem;
+    }
+
+    .rose-CareU{
+        padding: 0;
     }
 
     .rose-CareU img{
