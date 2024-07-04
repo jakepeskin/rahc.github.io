@@ -32,7 +32,7 @@ h4 {
 }
 
 .jumbotron{
-    background-image: url(https://jakepeskin.github.io/Subpages/About/Resources/JumbotronImage.png);
+    background-image: url(https://jakepeskin.github.io/About/Resources/JumbotronImage.png);
     justify-content: center;
     background-position-y: 7%;
 }
@@ -73,7 +73,7 @@ h4 {
     row-gap: 3rem;
     width: 70%;
     margin: auto;
-    background: no-repeat url('https://jakepeskin.github.io/Subpages/About/Resources/Background Logos/logo-about.png');
+    background: no-repeat url('https://jakepeskin.github.io/About/Resources/Background Logos/logo-about.png');
     background-position: 50% 25%;
     background-size: 45%;
    
@@ -226,7 +226,7 @@ video{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background: no-repeat url('https://jakepeskin.github.io/Subpages/About/Resources/Background Logos/Logo-hiring.png');
+    background: no-repeat url('https://jakepeskin.github.io/About/Resources/Background Logos/Logo-hiring.png');
     background-position: 50% 25%;
     background-size: 27%;
 }
