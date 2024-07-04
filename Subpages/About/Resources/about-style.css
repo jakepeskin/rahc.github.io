@@ -236,8 +236,7 @@ video{
 }
 
 .hiring {
-    width: 37%;
-    border-radius: 50px;   
+    width: 37%;  
 }
 
 .hiring-list{
@@ -385,7 +384,11 @@ video{
 @media only screen and (max-width: 480px) {
 
     h2{
-        font-size: 1.5rem;
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: 1.4rem;
     }
 
     .jumbotron {
@@ -412,6 +415,7 @@ video{
         text-align: center;
         row-gap: 3rem;
         background: none;
+        padding: 3rem 0 4rem 0;
     }
 
     .break{
@@ -427,22 +431,72 @@ video{
     }
 
     .videofullcontainer{
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 2rem 0;
+        border-radius: 30px;
+        filter: none;
+    }
+
+    .videoreel{
+        text-align: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    .videoreel h2{
+        padding: 0 1rem 2rem 1rem;
     }
 
     .videos{
-        width: 68%;
+        width: 62%;
+        
     }
 
     .videoreel-text{
         width: 90%;
-        text-align: center;
     }
-    
 
+    .hiring-process{
+        width: 90%;
+        border-radius: 20px;
+        filter: none;
+        margin: 4.5rem auto;
+        padding: 1rem 0;
+    }
 
+    .hiring-contents {
+        flex-wrap: wrap;
+        background: none;
+        padding: 0 0 0 0 
+    }
+
+    .hiring{
+        width: 88%;
+    }
+
+    .rose-CareU img {
+        width: 60%;
+        padding: 1rem 0;
+    }
+
+    .currentmonth{
+        width: 90%;
+        padding: 2rem 0;
+    }
+
+    .carousel-cell img{
+        width: 85%;
+        left: -8px;
+    }
+
+    .carousel-cell{
+        padding: 0
+    }
+
+    .caregiversofthemonth{
+        padding: 2rem 0 4rem 0;
+    }
 }
