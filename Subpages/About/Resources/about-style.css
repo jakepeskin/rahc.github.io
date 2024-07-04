@@ -407,6 +407,7 @@ video{
 
     .headshotsect{
         width: 100%;
+        padding-top: 6rem;
     }
 
     .headshots{
@@ -474,7 +475,7 @@ video{
     }
 
     .hiring{
-        width: 88%;
+        width: 85%;
     }
 
     .rose-CareU img {
@@ -500,3 +501,108 @@ video{
         padding: 2rem 0 4rem 0;
     }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+
+    h1{
+        padding: 6rem 0
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    h4{
+        font-size: 1.1rem;
+    }
+
+    .title{
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .circlepics{
+        display: none;
+    }
+
+    .jumbotron{
+        background-position-y: -87%;
+        background-position-x: 42%;
+    }
+
+    .accolades p{
+        font-size: 1.1rem;
+    }
+
+    .headshotsect{
+        padding-top: 4rem;
+        width: 100%;
+    }
+
+    .headshots{
+        padding: 3rem 0 3rem 0;
+        width: 90%;
+    }
+
+    .videofullcontainer{
+        width: 100%;
+    }
+    
+    .videos{
+        width: 24%;
+    }
+
+    .videoreel{
+        padding: 2rem 0;
+    }
+
+    .videoreel-text p{
+        padding-top: 2.3rem;
+    }
+
+    .hiring-process{
+        width: 92%;
+    }
+
+    .hiring-contents{
+        padding: .5rem 0 0 0 ;
+    }
+
+    .hiring-contents h3{
+        font-size: 1rem;
+    }
+
+    .rose-CareU img{
+        width: 65%;
+    }
+
+    .currentmonth{
+        width: 87%;
+        padding: 0 0 4rem 0;
+    }
+
+    .caregiversofthemonth h3{
+        font-size: 1.3rem;
+    }
+
+    .flickity-slider {
+        transform: none;
+    }
+
+    .carousel-cell img{
+        width: 85%;
+        left: -8px;
+    }
+
+    .carousel-cell {
+        padding-right: 1rem;
+    }
+}
+
