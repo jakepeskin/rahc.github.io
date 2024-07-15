@@ -21,7 +21,7 @@ h3 {
     width: 63%;
     justify-content: space-evenly;
     flex-direction: row;
-    margin: 2.5rem auto;
+    margin: 2.5rem auto 4rem auto;
     border: 1px solid #f05e4f;
     box-sizing: border-box;
     padding: 1.5rem 0;
@@ -50,7 +50,7 @@ h3 {
     fill: #f05e4f;
 }
 
-.caretype{
+.care-class{
     width: 90%;
     margin: 0 auto;
     background-color: #b1b1b10e;
@@ -58,6 +58,7 @@ h3 {
     border: 1px solid #f05f4f4c;
     border-radius: 50px;
     background-size: 100%;
+    margin-bottom: 6rem;
 }
 
 .caretype-header{
@@ -93,7 +94,7 @@ h3 {
     width: 53%;
 }
 
-.caretype h3{
+.care-class h3{
     color: black;
     padding: .75rem 0 0 1.4rem;
 }
@@ -109,4 +110,50 @@ h3 {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+}
+
+.caretype-text li{
+    padding-bottom: .2rem;
+}
+
+.condition-specific{
+    max-width: 100%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-evenly;
+    align-content:center;
+    text-align:center;
+    padding:7rem 0;
+}
+
+.DLs{
+    width: 75%;
+}
+
+.caretype-contents{
+    padding: 1rem;
+}
+
+.caretype h2{
+    color: white;
+}
+
+.caretype h3{
+    margin: 1rem auto;
+}
+
+
+
+.dementia{
+    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/Dementia.webp");
+}
+
+.als{
+    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/ALS.webp");
+}
+
+.parkinsons{
+    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/Parkinsons.webp");
 }
