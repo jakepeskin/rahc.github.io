@@ -1,7 +1,15 @@
-html {
+    html {
     font-size:16px !important;
     font-family:futura !important;
     --body-font:futura
+    }
+
+    h1 {
+        padding: 12.5rem 0;
+        color: white;
+        font-size: 3.5rem;
+        margin: 3rem auto;
+        filter: drop-shadow(0px 5px 5px #2a2a2a00);
     }
     
     h2 {
@@ -52,7 +60,7 @@ html {
     position:fixed;
     z-index:102;
     padding:1rem 0 1.5rem;
-    filter:drop-shadow(0px 5px 5px #84848454);
+    filter:drop-shadow(0px 5px 5px #84848415);
     top:0
     }
     
@@ -129,7 +137,7 @@ html {
     
     .jumbotron {
     padding-top:5.8rem;
-    background-image:url(https://lh3.googleusercontent.com/drive-viewer/AKGpihYYbVP0lKR37XG0eRoEfbuOkuBVUNnZT7MgJyd71X1Oklf0Aklg47kmjbzw3dB1Hhkl9nDSFE3nls-brefcXGdr7u5IXacPH-8=s1600-rw-v1);
+    background-image:url("https://jakepeskin.github.io/Resources/Stock Photos/Jumbotron/Holdingarm.png");
     background-repeat:no-repeat;
     background-size:cover;
     display:flex;
@@ -356,6 +364,16 @@ html {
     .services-right {
     width:50%;
     padding-left:2rem
+    }
+
+    .services-right a{
+        font-size: 1.2rem;
+        color: #f05a4d;
+    }
+
+    .services-right a:hover{
+        font-size: 1.2rem;
+        color: #f7a39b;
     }
     
     .servicesleft img {
@@ -687,19 +705,19 @@ html {
     }
     
     .blog1 {
-    background-image:url(https://lh3.googleusercontent.com/drive-viewer/AKGpiha7WB2vvxoRe4Tpa5K9LNgIRv3p6UMl7VsR8tQhbq9g2Nfqu3lOpM7FiCKYzsdV-xr83tl5dm-GhDi8uUFQTG_TGmIEGAIg92M=s1600-rw-v1)
+    background-image:url("https://jakepeskin.github.io/Resources/Stock Photos/Blog Photos/FruitProtein.png")
     }
     
     .blog2 {
-    background-image:url(https://lh3.googleusercontent.com/drive-viewer/AKGpihYWSCDP5Y9RR3nObMlOKXThHzEs9PRVwXWikg5a4ZQ7Y6xIZImJTtt4SecP0AP_OIcjEdr6Riw6xzp1H1gcWFKm6vlBzA1Bv3M=s1600-rw-v1)
+    background-image:url("https://jakepeskin.github.io/Resources/Stock Photos/Blog Photos/VA Benefits.png")
     }
     
     .blog3 {
-    background-image:url(https://lh3.googleusercontent.com/drive-viewer/AKGpihZCsuhj4-xmiEnm_TDwbmgCm7KG8WDohkCPWwR0APRa05ZH-5etOmvjA6y-9Ap-yZrmT4JrriFEw-8BGw5iQulqz29NgTvhNZE=s1600-rw-v1)
+    background-image:url("https://jakepeskin.github.io/Resources/Stock Photos/Blog Photos/SoundHealing.png")
     }
     
     .blog4 {
-    background-image:url(https://lh3.googleusercontent.com/drive-viewer/AKGpihZRotExuVKx_0RL8gM-uXb5bE8PqpbVPhp5xCbYNk9dmkG6ebKms4PJhnheQsdm4sCce3CegabD6Pr-_s92EByzidupVTspf04=s1600-rw-v1)
+    background-image:url("https://jakepeskin.github.io/Resources/Stock Photos/Blog Photos/Springtime.png")
     }
     
     footer {
@@ -1263,7 +1281,7 @@ html {
     width:100%;
     box-sizing:border-box;
     background-color:#faf9f9;
-    box-shadow:1px 0 5px #848484
+    box-shadow:1px 0 5px #84848440
     }
     
     .bottom-button:active {
@@ -1316,4 +1334,4 @@ html {
     .allrights {
     padding-top:.5rem
     }
-    }
+}

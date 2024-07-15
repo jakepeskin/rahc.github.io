@@ -1,0 +1,112 @@
+h1{
+    padding: 12rem 0
+}
+
+h3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.jumbotron{
+    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Stock Photos/HeaderTwo.png");
+    background-size: 106%;
+    background-position: 20% 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.care-times{
+    display: flex;
+    text-align: center;
+    width: 63%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 2.5rem auto;
+    border: 1px solid #f05e4f;
+    box-sizing: border-box;
+    padding: 1.5rem 0;
+    border-radius: 500px;
+}
+
+.care-time{
+    position: relative;
+    background-color: #ffffff55;
+    border: 1px solid #f05e4f;
+    border-radius: 200px;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffc6bf3d;
+}
+
+.care-time h3{
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: #f05e4f;
+}
+
+.care-time svg{
+    width: 11%;
+    fill: #f05e4f;
+}
+
+.caretype{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #b1b1b10e;
+    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Stock Photos/Backgrounds/GreyLogo.png");
+    border: 1px solid #f05f4f4c;
+    border-radius: 50px;
+    background-size: 100%;
+}
+
+.caretype-header{
+    padding: 2rem 0;
+}
+
+.caretype-header h2{
+    color: black;
+    font-size: 2rem;
+}
+
+.caretype-element{
+    display: flex;
+    width: 31%;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #f05e4f;
+    padding: .5rem 0;
+    border-radius: 30px;
+    background-color: white;
+    filter: drop-shadow(0px 10px 5px #84848425);
+}
+
+.caretype-element img{
+    width: 35%;
+    height: auto;
+    border-radius: 300px;
+    filter: drop-shadow(0px 10px 5px #8484840f);
+}
+
+.caretype-text{
+    text-align: start;
+    width: 53%;
+}
+
+.caretype h3{
+    color: black;
+    padding: .75rem 0 0 1.4rem;
+}
+
+.carecontainers{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    padding-bottom: 6rem;
+}
+
+.carerow{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
