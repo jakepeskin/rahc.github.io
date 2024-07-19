@@ -483,18 +483,18 @@
     }
     
     .caretype-header.adl {
-    background-image:url("");
+    background-image:url("https://jakepeskin.github.io/Resources/Stock Photos/Caretypes/ADLs.webp");
     background-size:cover;
-    box-sizing:border-box
+    box-sizing:border-box;
     }
     
     .caretype-header.iadl {
-    background-image:url(https://lh3.googleusercontent.com/drive-viewer/AKGpihbnulRd2TKeQQ5a1haD8PK_rL8t02B44FgNmWz9Ba8Ve4_FHa7v67dkMcsj_vQpYJBFh9kgAxhMN5qiz9tgMgLG21BpVoNr5to=s1600-rw-v1);
+    background-image:url("https://jakepeskin.github.io/Resources/Stock Photos/Caretypes/IADLs.webp");
     background-size:cover
     }
     
     .caretype-header.specialized {
-    background-image:url(https://lh3.googleusercontent.com/drive-viewer/AKGpihYd0d0Jq--TyRxwtm4sOtl0Xzcj0VGkkhSpRDnuGadg54sWZudQhim-vdnYwSfNxvdWTGD-L3pOWt8xLMBbv2keD6CGwAzZCzo=s1600-rw-v1);
+    background-image:url("https://jakepeskin.github.io/Resources/Stock Photos/Caretypes/ConditionSpecific.webp");
     background-size:cover
     }
     

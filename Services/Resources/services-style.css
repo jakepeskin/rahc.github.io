@@ -54,11 +54,13 @@ h3 {
     width: 90%;
     margin: 0 auto;
     background-color: #b1b1b10e;
-    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Stock Photos/Backgrounds/GreyLogo.png");
     border: 1px solid #f05f4f4c;
     border-radius: 50px;
     background-size: 100%;
-    margin-bottom: 6rem;
+}
+
+.caretype{
+    width: 30%;
 }
 
 .caretype-header{
@@ -103,33 +105,52 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     row-gap: 2rem;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
+}
+
+.cc-iadl{
+    padding: 3rem 0;
+    width: 150%;
 }
 
 .carerow{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     width: 100%;
+}
+
+.rahclogo-b{
+    width: 9%;
+    margin: 0 -3rem;
+}
+
+.rahclogo-i{
+    width: 35%;
+    padding-top: 5rem;
 }
 
 .caretype-text li{
     padding-bottom: .2rem;
 }
 
-.condition-specific{
-    max-width: 100%;
-    margin:0 auto;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:space-evenly;
-    align-content:center;
-    text-align:center;
-    padding:7rem 0;
+.csheader{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    border: 2px solid #f7a39b;
+    border-radius: 20px;
+    background-color: #f7a39b2c;
+    padding: 0 1rem;
 }
 
 .DLs{
-    width: 75%;
+    width: 90%;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+    justify-content: space-around;
 }
 
 .caretype-contents{
@@ -144,16 +165,148 @@ h3 {
     margin: 1rem auto;
 }
 
+.caretype-header{
+    background-size: cover;
+    width: 100%;
+}
 
+.cta{
+    width: 50%;
+    align-items: center;
+    margin: 6rem auto;
+    padding: 2rem 0;
+    background-color: #f7a39b0f;
+}
+
+.servicebutton{
+    width: 17%;
+    justify-content: center;
+    font-size: 1.2rem;
+    color:black;
+    padding: .75rem .3rem
+}
+
+.iadls{
+    display: flex;
+}
+
+.iadl-e{
+    width: 45%;
+}
+
+.iadl-h{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 0 .5rem;
+}
+
+.companionship{
+    width: 80%;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 8rem auto;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 2rem 0;
+}
+
+.companionshiptext{
+    width: 40%;
+}
+
+.companionshiptext h2{
+    font-size: 2rem;
+}
+
+.companionshiptext .tinyrect{
+    margin: 2rem .4rem;
+}
+
+.condition-specific{
+    max-width: 90%;
+    margin:0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-evenly;
+    align-content:center;
+    text-align:center;
+    padding-bottom: 6rem;
+}
 
 .dementia{
-    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/Dementia.webp");
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.twocolumn{
+    display: flex;
+}
+
+.dementia img{
+    border-radius: 100px;
+    width: 25%;
+}
+
+.dementia h2{
+    font-size: 1.75rem;
+    color: black;
+}
+
+.dementia h3{
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.caretype-header p{
+    padding-top: .3rem;
+}
+
+.dementiatext{
+    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/Dementia.png");
+    background-size: cover;
+}
+
+.caretypetext{
+    padding: 2rem 0 1rem 3rem;
+    text-align: left;
 }
 
 .als{
-    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/ALS.webp");
+    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/ALS.png");
 }
 
 .parkinsons{
-    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/Parkinsons.webp");
+    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/Parkinsons.png");
+}
+
+.ms{
+    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/MultipleSclerosis.png");
+}
+
+.aslashd{
+    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/Dementia.png");
+}
+
+.autism{
+    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/Autism.png");
+}
+
+.cancer{
+    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/Cancer.png");
+}
+
+.stroke{
+    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/Stroke.png");
 }
