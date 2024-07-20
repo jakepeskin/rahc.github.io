@@ -142,8 +142,18 @@ h3 {
     justify-content: center;
     border: 2px solid #f7a39b;
     border-radius: 20px;
-    background-color: #f7a39b2c;
     padding: 0 1rem;
+    background: no-repeat url('/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Images/RAHClighter.png') #FBFBFB;
+    background-size: 30%;
+    background-position: center;
+}
+
+.companionship a{
+    color: #EC7F76;
+}
+
+.companionship a:hover{
+    color: #f7a39b;
 }
 
 .DLs{
