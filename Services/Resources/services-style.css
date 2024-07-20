@@ -81,7 +81,7 @@ h3 {
     padding: .5rem 0;
     border-radius: 30px;
     background-color: white;
-    filter: drop-shadow(0px 10px 5px #84848425);
+    filter: drop-shadow(0px 10px 5px #84848416);
 }
 
 .caretype-element img{
@@ -146,14 +146,6 @@ h3 {
     background: no-repeat url("https://jakepeskin.github.io/Services/Resources/Images/RAHClighter.png") #FBFBFB;
     background-size: 30%;
     background-position: center;
-}
-
-.companionship a{
-    color: #EC7F76;
-}
-
-.companionship a:hover{
-    color: #f7a39b;
 }
 
 .DLs{
@@ -224,6 +216,7 @@ h3 {
     border-right: none;
     border-radius: 0;
     padding: 2rem 0;
+    background:radial-gradient(closest-corner,#f7f7f7,#FFF)
 }
 
 .companionshiptext{
@@ -232,6 +225,19 @@ h3 {
 
 .companionshiptext h2{
     font-size: 2rem;
+}
+
+.companionship a{
+    color: #EC7F76;
+}
+
+.companionship a:hover{
+    color: #f7a39b;
+}
+
+.companionship img{
+    filter: drop-shadow(0px 10px 5px #84848416);
+    border-radius: 5px;
 }
 
 .companionshiptext .tinyrect{
