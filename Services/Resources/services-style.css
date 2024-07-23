@@ -68,7 +68,6 @@ h3 {
 }
 
 .caretype-header h2{
-    color: black;
     font-size: 2rem;
 }
 
@@ -159,8 +158,12 @@ h3 {
     padding: 1rem;
 }
 
-.caretype h2{
+.aslashd h2{
     color: white;
+}
+
+.aslashd h2:hover{
+    color: #f7a39b;
 }
 
 .caretype h3{
@@ -180,8 +183,14 @@ h3 {
     background-color: #f7a39b0f;
 }
 
+.navbuttons{
+    display:flex;
+    width: 37%;
+    justify-content: space-between;
+}
+
 .servicebutton{
-    width: 17%;
+    width: 42%;
     justify-content: center;
     font-size: 1.2rem;
     color:black;
@@ -265,6 +274,10 @@ h3 {
     justify-content: space-around;
 }
 
+.dementia:hover h2{
+    color: #FACCC6;
+}
+
 .twocolumn{
     display: flex;
 }
@@ -272,16 +285,10 @@ h3 {
 .dementia img{
     border-radius: 100px;
     width: 25%;
-}
-
-.dementia h2{
-    font-size: 1.75rem;
-    color: black;
-}
+} 
 
 .dementia h3{
     margin-bottom: 1rem;
-    font-size: 1.3rem;
     color: black;
 }
 
@@ -326,3 +333,187 @@ h3 {
 .stroke{
     background-image: url("https://jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/Stroke.png");
 }
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+
+    .care-times{
+        width: 90%;
+    }
+
+    .caretype-text li{
+        font-size: .8rem;
+    }
+
+    .care-class h3{
+        font-size: 1.2rem;
+    }
+
+    .iadls {
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+
+    .cc-iadl{
+        width: 100%;
+    }
+
+    .rahclogo-i{
+        display: none;
+    }
+
+    .caretype-header h2{
+        font-size: 1.5rem;
+    }
+
+    .caretype h3{
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    li{
+        font-size: 12px;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    h1{
+        font-size: 2.5rem;
+        padding: 0;
+    }
+
+    .jumbotron{
+        background-size: 135%;
+        flex-direction: row;
+        background-position: 35%;
+    }
+
+    .care-times{
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 93%;
+        align-items: center;
+        border-radius: 100px;
+        padding: 1rem 0;
+        margin-top: 8rem;
+        
+    }
+
+    .care-time{
+        width: 75%;
+        margin: .8rem 0;
+    }
+
+    .care-time h3{
+        font-size: 1.2rem;
+        padding: .7rem 0;
+    }
+
+    .care-time svg{
+        width: 9%;
+    }
+
+    .carerow{
+        flex-direction: column;
+        row-gap: 1.5rem;
+    }
+
+    .rowtop{
+        padding-bottom: 1.5rem;
+    }
+
+    .caretype-element{
+        width: 96%;
+        justify-content: center;
+    }
+
+    .rahclogo-b{
+        display: none;
+    }
+
+    .rahclogo-i{
+        display: none;
+    }
+
+    .carecontainers{
+        row-gap: 0;
+        padding-bottom: 3rem;
+    }
+
+    .care-class h3{
+        font-size: 1.3rem;
+    }
+
+    .caretype h3 {
+        font-size: 1.1rem;
+    }
+
+    .companionship{
+        border-radius: 0px;
+        width: 82%;
+    }
+
+    .companionship img{
+        width: 75%;
+        padding: 1rem;
+        border-radius: 30px;
+    }
+
+    .companionshiptext {
+        width: 84%;
+        text-align: center;
+    }
+
+    .companionshiptext h2{
+        font-size: 1.7rem;
+    }
+
+    .companionshiptext .tinyrect {
+        margin: 1rem auto;
+    }
+
+    .navbuttons{
+        width: 60%;
+        padding-top: 1rem;
+    }
+
+    .csheader{
+        width: 80%;
+    }
+
+    .caretype-header h2 {
+        font-size: 1.4rem;
+    }
+
+    .iadls{
+        flex-wrap: wrap;
+    }
+
+    .iadl-h h2{
+        padding-top: 2rem;
+    }
+
+    .Dls{
+        width: 100%;
+    }
+
+    .twocolumn{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dementia{
+        width: 90%;
+    }
+
+    .caretype{
+        width: 90%;
+    }
+
+    
+}
+
