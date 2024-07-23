@@ -1,0 +1,29 @@
+.jumbotron{
+    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Employment/Resources/Images/JumbotronEmployment.png");
+    height: 70vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h1{
+    padding: 0 0;
+}
+
+.contactus{
+    padding: .9rem 3.8rem;
+}
+
+.jumbotron a{
+    margin-top: 0;
+}
+
+.teamjoin{
+    margin: 2rem auto;
+}
+
+.tinyrect {
+    width: 4%;
+    height: .75%;
+    background-color: #f7a39bcd;
+    margin: 1rem 0
+}
