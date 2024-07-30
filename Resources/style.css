@@ -419,7 +419,7 @@
     }
     
     .Dls a:hover {
-    filter:drop-shadow(0px 10px 5px #6c6c6c7b);
+    filter:drop-shadow(0px 10px 5px #6c6c6c4b);
     }
 
     .Dls a:hover h2{

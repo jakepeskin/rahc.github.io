@@ -1,29 +1,270 @@
 .jumbotron{
     background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Employment/Resources/Images/JumbotronEmployment.png");
-    height: 70vh;
+    height: 72vh;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 h1{
     padding: 0 0;
 }
 
+h2{
+    font-size: 1.8rem;
+}
+
+p{
+    display: flex;
+    align-items: flex-start;
+    padding: .5rem 0;
+    font-size: 1.3rem;
+}
+
+.accolades h2{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: .5rem 0;
+}
+
 .contactus{
     padding: .9rem 3.8rem;
+    color: white;
 }
 
 .jumbotron a{
     margin-top: 0;
 }
 
-.teamjoin{
-    margin: 2rem auto;
+.sidesect h2{
+    margin:auto;
+    padding-bottom: 1.5rem;
+    text-align: center;
 }
 
-.tinyrect {
-    width: 4%;
-    height: .75%;
-    background-color: #f7a39bcd;
-    margin: 1rem 0
+.sidesect{
+    display: flex;
+    flex-direction: column;
+    background-color: #fbfafa;
+    border: 2px solid #EC7F76;
+    padding: 2rem;
+    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Images/RAHClighter.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+    filter: drop-shadow(0px 5px 5px #2a2a2a1a);
+}
+
+.teamjoin{
+    margin: 4rem 0;
+    width: 80%;
+    align-items: flex-start;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-left: none;
+    background-size: 15%;
+}
+
+
+img{
+    width: 25%;
+    border-radius: 10px;
+}
+
+.teamjoinbody{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.employmentacc{
+    margin: 6.5rem auto;
+    text-align: center;
+    border-top: 2px solid #ec80768e;
+    border-bottom: 2px solid #ec80768e;
+}
+
+.employmentacc a{
+    color: black;
+}
+
+.requirementscontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reqs{
+    width: 80%;
+    padding: 3rem;
+    margin-bottom: 15rem;
+}
+
+.requirements h2{
+    text-align: center;
+}
+
+.HCAContent{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+   
+}
+
+.HCA{
+    width: 43%;
+    padding: 2rem 1.5rem;
+    position: relative;
+    border-radius: 100px;
+    bottom: 130px;
+    left: -55px;
+
+}
+
+.HCAImage{
+    width: 15%;
+}
+
+.HCAbutton{
+    width: 65%;
+}
+
+.navbuttonHCA{
+    width: 70%;
+}
+
+.HCA p{
+    justify-content: center;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+
+.HCA h2{
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.buttonsection{
+    display: flex;
+    width: 75%;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.lefttext p::before {
+    content:url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Resources/SVGs/Rosesmaller.png");
+    margin-right:.5rem
+}
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 12rem auto;
+}
+
+.rightsection2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left{
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    text-align: center;
+}
+
+.lefttext{
+    width: 70%;
+}
+
+
+
+.employeetest{
+    height: 5%;
+    background-color: #F4D9D5;
+    border: none;
+    width:60%;
+    flex-direction: row;
+    background-image: none;
+    justify-content: space-evenly;
+    border-radius: 100px;
+    position: relative;
+    z-index: 10;
+    padding: 2.5rem;
+    top: 40px;
+    left: 0px;
+}
+
+video{
+    width: 40%;
+}
+
+.right{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-right: none;
+    position: relative;
+    float: right;
+    background-size: 18%;
+}
+
+.rightsection{
+    display: flex;
+    align-items: center;
+}
+
+.lefttext2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-left: 1rem;
+}
+
+.lefttext2 h2{
+    margin: 0;
+    padding-bottom: 2rem;
+    text-align: start;
+}
+
+.smallsect{
+    text-align: center;
+    background-image: none;
+}
+
+.centerlogo{
+    position: absolute;
+    z-index: -1;
+    left: 945px;
+    padding-top: 260px;
+    opacity: .1;
+    width: 12.5%;
+}
+
+.timesheet{
+    width:95%;
+    border-left: none;
+    border-right: none;
+    filter: none;
+}
+
+.timebutton{
+    width: 30%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.timesheet p{
+    margin: auto;
+}
+
+.timebutton h2{
+    padding: .8rem 0;
+    font-size: 1.3rem;
+    color: black;
 }
