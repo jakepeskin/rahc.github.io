@@ -201,7 +201,7 @@ img{
 }
 
 video{
-    width: 40%;
+    width: 33%;
 }
 
 .right{
@@ -241,7 +241,7 @@ video{
     position: absolute;
     z-index: -1;
     left: 965px;
-    padding-top: 260px;
+    padding-top: 270px;
     opacity: .1;
     width: 12.5%;
 }
