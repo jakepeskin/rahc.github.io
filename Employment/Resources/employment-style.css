@@ -47,7 +47,7 @@ p{
     background-color: #fbfafa;
     border: 2px solid #EC7F76;
     padding: 2rem;
-    background-image: url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Services/Resources/Images/RAHClighter.png");
+    background-image: url("https://jakepeskin.github.io/Services/Resources/Images/RAHClighter.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30%;
@@ -154,7 +154,7 @@ img{
 }
 
 .lefttext p::before {
-    content:url("/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Resources/SVGs/Rosesmaller.png");
+    content:url("https://jakepeskin.github.io/Resources/SVGs/Rosesmaller.png");
     margin-right:.5rem
 }
 
