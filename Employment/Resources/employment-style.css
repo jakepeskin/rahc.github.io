@@ -162,7 +162,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 75%;
+    width: 85%;
     margin: 12rem auto;
 }
 
@@ -240,7 +240,7 @@ video{
 .centerlogo{
     position: absolute;
     z-index: -1;
-    left: 945px;
+    left: 965px;
     padding-top: 260px;
     opacity: .1;
     width: 12.5%;
