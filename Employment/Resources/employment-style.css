@@ -7,6 +7,7 @@
 
 h1{
     padding: 0 0;
+    text-align: center;
 }
 
 h2{
@@ -72,7 +73,7 @@ img{
 
 .teamjoinbody{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -179,10 +180,8 @@ img{
 }
 
 .lefttext{
-    width: 70%;
+    width: 65%;
 }
-
-
 
 .employeetest{
     height: 5%;
@@ -240,31 +239,187 @@ video{
 .centerlogo{
     position: absolute;
     z-index: -1;
-    left: 965px;
+    right: 500px;
     padding-top: 270px;
     opacity: .1;
     width: 12.5%;
 }
 
-.timesheet{
-    width:95%;
-    border-left: none;
-    border-right: none;
-    filter: none;
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.4rem;
+    }
+    
+    p{
+        display: flex;
+        align-items: flex-start;
+        padding: .5rem 0;
+        font-size: 1rem;
+    }
+
+    .accolades h2{
+        font-size: 1.1rem;
+    }
+
+    .reqs{
+        margin-bottom: 7rem;
+    }
+
+    .centerlogo{
+        display: none;
+    }
+
+    .employeetest{
+        position: static;
+        margin-bottom: 6rem;
+        width: 85%;
+    }
+
+    .section2{
+        flex-direction: column;
+        margin: 7rem auto;
+    }
+
+    .HCA{
+        position: static;
+        width: 85%;
+    }
+
+    .HCA h2{
+        font-size: 1.2rem;
+    }
+
 }
 
-.timebutton{
-    width: 30%;
-    margin: auto;
-    margin-top: 1rem;
+@media only screen and (max-width: 1024px) {
+
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.4rem;
+    }
+    
+    p{
+        display: flex;
+        align-items: flex-start;
+        padding: .5rem 0;
+        font-size: 1rem;
+    }
+
+    .accolades h2{
+        font-size: 1.1rem;
+    }
+
+    .reqs{
+        margin-bottom: 7rem;
+    }
+
+    .centerlogo{
+        display: none;
+    }
+
+    .employeetest{
+        position: static;
+        margin-bottom: 6rem;
+        width: 85%;
+    }
+
+    .section2{
+        flex-direction: column;
+        margin: 7rem auto;
+    }
+
+    .HCA{
+        position: static;
+        width: 85%;
+    }
+
+    .HCA h2{
+        font-size: 1.2rem;
+    }
+
 }
 
-.timesheet p{
-    margin: auto;
-}
+@media only screen and (max-width: 481px) {
 
-.timebutton h2{
-    padding: .8rem 0;
-    font-size: 1.3rem;
-    color: black;
+    .jumbotron{
+        height: 52vh;
+    }
+
+    .jumbotron a {
+        font-size: 1.1rem;
+    }
+
+    .employmentacc{
+        width: 91%;
+        margin: 6.5rem auto 6.5rem;
+    }
+
+    .mobrule{
+        margin: 8.5rem auto 1.5rem;
+    }
+
+    .accolades{
+
+        width: 82%;
+    }
+
+    .employeetest{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+
+    .lefttext{
+        width:90%;
+    }
+
+    .lefttext2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .lefttext2 h2{
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    video{
+        width: 75%;
+        padding-bottom: 3rem;
+    }
+
+    .reqs{
+        width: 70%;
+    }
+
+    .teamjoin{
+        width: 75%;
+    }
+
+    .sidesect{
+        background-image: none;
+    }
+
+    .sidesectimg{
+        display: none;
+    }
+
+    .teamjoinbody{
+        justify-content: flex-start;
+    }
+
+
+    .requirementscontent{
+        justify-content: flex-end;
+    }
+
 }

@@ -10,6 +10,7 @@
         font-size: 3.5rem;
         margin: 3rem auto;
         filter: drop-shadow(0px 5px 5px #2a2a2a00);
+        text-align: center;
     }
     
     h2 {
@@ -1031,7 +1032,6 @@
     
     .jumbotron {
     padding:0;
-    background-image:url(https://lh3.googleusercontent.com/drive-viewer/AKGpihYvA6nn9xcuOQeLgOwm5S79XmfFJGsZJeZK_k4SjCPYwm67BVtnjD4M259lh1o4ZAZZQgBIJhMoI63GfAQaJGxTQ8UWOKYzn1c=s1600-rw-v1);
     height:43vh;
     position:relative;
     top:5rem;
