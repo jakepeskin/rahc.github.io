@@ -1,0 +1,91 @@
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+.jumbotron{
+    flex-direction: column;
+    height: 54vh;
+    background-image: url('/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Contact_Us/Resources/Contact_Us_Stock_Photos/ContactUsJumobtronIMG.png');
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.jumbotron h2{
+    font-size: 1.5rem;
+    padding: .5rem 0;
+    color: black;
+}
+
+.jumbobuttons{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.jumbobutton{
+    width: 30%;
+}
+
+.accolades{
+    text-align: center;
+    width: 55%;
+}
+
+.accolades p{
+    width: 82%;
+}
+
+.accolades h2{
+    font-size: 1.8rem;
+    padding-bottom: .5rem;
+    color: #ec8076;
+}
+
+.contactusbox{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    background-color: #f5d9d5;
+    border-radius: 10px;
+    align-items: center
+}
+
+.contactustextbox{
+    width: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    height: fit-content;
+    position: relative;
+    z-index: 10;
+    left: 1rem;
+    padding: 2rem 0;
+}
+
+.textboxheader{
+    font-size: 1.5rem;
+}
+
+.boximg{
+    width: 52%;
+    position: relative;
+    right: 1rem;
+   
+}
+
+.textboxbutton{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.liltime{
+    font-size: .9rem;
+    margin: 0;
+}
