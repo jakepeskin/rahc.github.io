@@ -5,7 +5,7 @@ h1{
 
 .jumbotron{
     flex-direction: column;
-    height: 54vh;
+    height: 58vh;
     background-image: url('/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Contact_Us/Resources/Contact_Us_Stock_Photos/ContactUsJumobtronIMG.png');
     display: flex;
     justify-content: space-evenly;
@@ -44,12 +44,24 @@ h1{
 
 .contactusbox{
     display: flex;
-    width: 80%;
-    margin: auto;
+    width: 77%;
+    margin: 6rem auto;
     padding: 2rem;
     background-color: #f5d9d5;
     border-radius: 10px;
-    align-items: center
+    align-items: center;
+    filter: drop-shadow(0px 5px 5px #2a2a2a1a);
+    position: relative;
+}
+
+.callbox{
+    background-color: #f5d9d5;
+    right: 2rem;
+}
+
+.emailbox{
+    background-color: #e2e2e2;
+    left: 2rem;
 }
 
 .contactustextbox{
@@ -64,8 +76,16 @@ h1{
     height: fit-content;
     position: relative;
     z-index: 10;
-    left: 1rem;
     padding: 2rem 0;
+}
+
+.calltextbox{
+    left: 1rem;
+}
+
+.emailtextbox{
+    right: 1rem;
+    padding-bottom: 0;
 }
 
 .textboxheader{
@@ -75,17 +95,122 @@ h1{
 .boximg{
     width: 52%;
     position: relative;
+    border-radius: 10px;
+}
+
+.callimg{
     right: 1rem;
-   
+}
+
+.emailimg{
+    left: 1rem;
+}
+
+.middletext{
+    padding: 1rem 0;
 }
 
 .textboxbutton{
     width: 20%;
     display: flex;
     justify-content: center;
+    margin-top: 1.5rem;
 }
 
 .liltime{
     font-size: .9rem;
-    margin: 0;
 }
+
+.HCAtext{
+    font-size: .8rem;
+    position: relative;
+    padding: .2rem 0;
+}
+
+.HCAtext a{
+    text-decoration: underline;
+    color: black;
+}
+
+.bigform{
+    border: 2px solid #F4D9D5;
+    background-color: #FBFBFB;
+    margin: 0 auto 10rem auto;
+    padding: 3rem 0 8rem 0;
+    border-radius: 50px;
+    filter: drop-shadow(0px 5px 5px #2a2a2a1a);
+    width: 55%;
+    background-image: url('/Users/jake/Documents/WebProjects/NewRAHC/jakepeskin.github.io/Contact_Us/Resources/Logotransparent.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bigform h2{
+    text-align: center;
+}
+
+.formrow{
+    display: flex;
+    padding: 2rem 0;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.contactpreference{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0
+}
+
+.cptext{
+    font-size: 1.3rem;
+}
+
+.inputl{
+    padding-right: 5rem;
+}
+
+.formheader{
+    width: 55.2%;
+    margin: 10rem auto 0 auto;
+    padding: 3rem 0;
+    text-align: center;
+    background-color: #f7a39bae;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    filter: drop-shadow(0px 5px 5px #2a2a2a1a);
+}
+
+.formheader h2{
+    font-size: 2.3rem;
+    color: white;
+}
+
+label{
+    font-size: 1.1rem;
+}
+
+.label2{
+    font-size: 1.1rem;
+}
+
+.submit{
+    margin: 2rem auto 2rem auto;
+    width: 15%;
+    border: none;
+    padding: .75rem 0;
+    border-radius: 10px;
+    background-color: #f7a39b;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.name{
+    padding-left: 3rem;
+}
+
