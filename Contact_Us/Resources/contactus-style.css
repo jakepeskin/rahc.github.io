@@ -209,6 +209,7 @@ label{
     font-weight: bold;
     justify-content: center;
     font-size: 1.1rem;
+    font-family: var(--body-font);
 }
 
 .name{
