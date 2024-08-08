@@ -219,3 +219,175 @@ label{
     padding-left: 3rem;
 }
 
+@media only screen and (max-width: 481px) and (max-width: 1024px) {
+
+    .jumbobuttons{
+        width: 60%;
+    }
+
+    .navbutton h2 {
+        font-size: 1rem;
+    }
+
+    .accolades{
+        margin: 4rem auto 4rem;
+    }
+
+    .formheader{
+        width: 80.5%;
+    }
+
+    .bigform{
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    p{
+        font-size: 1rem;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    .callbox{
+        flex-direction: column-reverse;
+    }
+
+    .contactusbox{
+        width: 80%;
+        position: static; 
+
+    }
+
+    .contactustextbox{
+        width: 106%;
+        position: static;
+    }
+
+    .textboxbutton{
+        width: 30%;
+    }
+
+    .textboxheader{
+        font-size: 1.2rem;
+    }
+
+    .jumbobuttons{
+        width: 80%;
+    }
+
+    .jumbotron h2{
+        padding: .2rem 0;
+    }
+
+    .accolades{
+        width: 85%;
+        margin: 10.5rem auto 6rem;
+    }
+
+    .accolades h2{
+        font-size: 1.4rem
+    }
+
+    .navbutton h2{
+        font-size: .9rem;
+    }
+
+    .boximg {
+        width: 85%;
+        position: relative;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+    }
+
+    .callimg{
+        position: static;
+    }
+
+    .middletext{
+        padding: .3rem
+    }
+
+    .bigform{
+        width: 95%;
+    }
+
+    .jumbobutton{
+        width: 39%;
+        padding: .2rem 0;
+    }
+
+    .emailbox{
+        flex-direction: column;
+    }
+
+    .emailtextbox{
+        position: static;
+    }
+
+    .foromrow{
+        flex-direction: column;
+    }
+
+    .formheader{
+        width: 96%;
+    }
+
+    .name{
+        padding: 0;
+    }
+
+    .inputl{
+        padding-right: 0;
+    }
+
+    .formheader h2{
+        font-size: 1.6rem;
+    }
+
+    .formheader{
+        padding: 2rem 0;
+    }
+
+    .bigform{
+        background-size: 115%;
+        padding: 3rem 0 5rem 0;
+    }
+
+    .formrow{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .finput{
+        padding-bottom: 3rem;
+    }
+
+    .contactpreference{
+        padding: 0 0 3rem;
+    }
+
+    .topcheckbox{
+        padding-bottom: 3rem;
+        text-align: center;
+    }
+
+    .mobileimg{
+        width: 30%;
+    }
+
+    .submit{
+        width: 35%;
+        margin: 1rem auto 1rem auto;
+    }
+
+    .boximg{
+        display: none;
+    }
+
+}
