@@ -1,0 +1,16 @@
+{
+    "host": "156.67.73.252",
+    "username": "u565791048.RAHCftp123",
+    "password": "RUHigh@585",
+    "remotePath": "/home/u565791048/domains/rosesagencyhomecare.com/public_html/",
+    "protocol": "ftp",
+    "port": 21,
+    "fileNameEncoding": "utf8",
+    "autoUpload": true,
+    "autoDelete": false,
+    "autoDownload": false,
+    "ignore": [
+        ".git",
+        "/.vscode"
+    ]
+}
