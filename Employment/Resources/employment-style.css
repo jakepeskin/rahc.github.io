@@ -1,5 +1,5 @@
 .jumbotron{
-    background-image: url("https://jakepeskin.github.io/Employment/Resources/Images/JumbotronEmployment.png");
+    background-image: url("../Employment/Resources/Images/JumbotronEmployment.png");
     height: 72vh;
     flex-direction: column;
     justify-content: center;
@@ -48,7 +48,7 @@ p{
     background-color: #fbfafa;
     border: 2px solid #EC7F76;
     padding: 2rem;
-    background-image: url("https://jakepeskin.github.io/Services/Resources/Images/RAHClighter.png");
+    background-image: url("../Services/Resources/Images/RAHClighter.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30%;
@@ -155,7 +155,7 @@ p{
 }
 
 .lefttext p::before {
-    content:url("https://jakepeskin.github.io/Resources/SVGs/Rosesmaller.png");
+    content:url("../Resources/SVGs/Rosesmaller.png");
     margin-right:.5rem
 }
 
