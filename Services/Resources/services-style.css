@@ -8,7 +8,7 @@ h3 {
 }
 
 .jumbotron{
-    background-image: url("https://jakepeskin.github.io/Services/Resources/Stock Photos/HeaderTwo.png");
+    background-image: url("../Services/Resources/Stock Photos/HeaderTwo.png");
     background-size: 106%;
     background-position: 20% 35%;
     display: flex;
@@ -142,7 +142,7 @@ h3 {
     border: 2px solid #f7a39b;
     border-radius: 20px;
     padding: 0 1rem;
-    background: no-repeat url("https://jakepeskin.github.io/Services/Resources/Images/RAHClighter.png") #FBFBFB;
+    background: no-repeat url("../Services/Resources/Images/RAHClighter.png") #FBFBFB;
     background-size: 30%;
     background-position: center;
 }
@@ -297,7 +297,7 @@ h3 {
 }
 
 .dementiatext{
-    background-image: url("https://jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/Dementia.png");
+    background-image: url("../Services/Resources/Stock Photos/Caretypes/Conditions/Dementia.png");
     background-size: cover;
 }
 
@@ -307,31 +307,31 @@ h3 {
 }
 
 .als{
-    background-image: url("https://jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/ALS.png");
+    background-image: url("../Services/Resources/Stock Photos/Caretypes/Conditions/ALS.png");
 }
 
 .parkinsons{
-    background-image: url("https://jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/Parkinsons.png");
+    background-image: url("../Services/Resources/Stock Photos/Caretypes/Conditions/Parkinsons.png");
 }
 
 .ms{
-    background-image: url("https://jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/MultipleSclerosis.png");
+    background-image: url("../Services/Resources/Stock Photos/Caretypes/Conditions/MultipleSclerosis.png");
 }
 
 .aslashd{
-    background-image: url("https://jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/Dementia.png");
+    background-image: url("../Services/Resources/Stock Photos/Caretypes/Conditions/Dementia.png");
 }
 
 .autism{
-    background-image: url("https://jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/Autism.png");
+    background-image: url("../Services/Resources/Stock Photos/Caretypes/Conditions/Autism.png");
 }
 
 .cancer{
-    background-image: url("https://jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/Cancer.png");
+    background-image: url("../Services/Resources/Stock Photos/Caretypes/Conditions/Cancer.png");
 }
 
 .stroke{
-    background-image: url("https://jakepeskin.github.io/Services/Resources/Stock Photos/Caretypes/Conditions/Stroke.png");
+    background-image: url("../Services/Resources/Stock Photos/Caretypes/Conditions/Stroke.png");
 }
 
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
