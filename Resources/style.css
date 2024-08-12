@@ -138,7 +138,7 @@
     
     .jumbotron {
     padding-top:5.8rem;
-    background-image:url("Resources/Stock%20Photos/Jumbotron/Holdingarm.png");
+    background-image:url("/Stock%20Photos/Jumbotron/Holdingarm.png");
     background-repeat:no-repeat;
     background-size:cover;
     display:flex;
