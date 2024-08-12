@@ -138,7 +138,7 @@
     
     .jumbotron {
     padding-top:5.8rem;
-    background-image:url("https://jakepeskin.github.io/Resources/Stock Photos/Jumbotron/Holdingarm.png");
+    background-image:url("Resources/Stock%20Photos/Jumbotron/Holdingarm.png");
     background-repeat:no-repeat;
     background-size:cover;
     display:flex;
@@ -484,22 +484,22 @@
     }
     
     .caretype-header.adl {
-    background-image:url("https://jakepeskin.github.io/Resources/Stock Photos/Caretypes/ADLs.webp");
+    background-image:url("Resources/Stock%20Photos/Caretypes/ADLs.webp");
     background-size:cover;
     }
     
     .caretype-header.iadl {
-    background-image:url("https://jakepeskin.github.io/Resources/Stock Photos/Caretypes/IADLs.webp");
+    background-image:url("Resources/Stock%20Photos/Caretypes/IADLs.webp");
     background-size:cover
     }
     
     .caretype-header.specialized {
-    background-image:url("https://jakepeskin.github.io/Resources/Stock Photos/Caretypes/ConditionSpecific.webp");
+    background-image:url("Resources/Stock%20Photos/Caretypes/ConditionSpecific.webp");
     background-size:cover
     }
     
     .caretype-contents h3::before {
-    content:url("https://jakepeskin.github.io/Resources/SVGs/orange-check.png");
+    content:url("Resources/SVGs/orange-check.png");
     margin-right:.5rem
     }
     
@@ -705,19 +705,19 @@
     }
     
     .blog1 {
-    background-image:url("https://jakepeskin.github.io/Resources/Stock Photos/Blog Photos/FruitProtein.png")
+    background-image:url("Resources/Stock%20Photos/Blog%20Photos/FruitProtein.png")
     }
     
     .blog2 {
-    background-image:url("https://jakepeskin.github.io/Resources/Stock Photos/Blog Photos/VA Benefits.png")
+    background-image:url("Resources/Stock%20Photos/Blog%20Photos/VA Benefits.png")
     }
     
     .blog3 {
-    background-image:url("https://jakepeskin.github.io/Resources/Stock Photos/Blog Photos/SoundHealing.png")
+    background-image:url("Resources/Stock%20Photos/Blog%20Photos/SoundHealing.png")
     }
     
     .blog4 {
-    background-image:url("https://jakepeskin.github.io/Resources/Stock Photos/Blog Photos/Springtime.png")
+    background-image:url("Resources/Stock%20Photos/Blog%20Photos/Springtime.png")
     }
     
     footer {
