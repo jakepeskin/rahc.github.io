@@ -30,7 +30,7 @@ h4 {
 /* Jumobtron/Quote */
 
 .jumbotron{
-    background-image: url("../About/Resources/JumbotronImage.png");
+    background-image: url("../Resources/JumbotronImage.png");
     justify-content: center;
     background-position-y: 7%;
 }
@@ -74,7 +74,7 @@ h4 {
     row-gap: 3rem;
     width: 70%;
     margin: auto;
-    background: no-repeat url("../About/Resources/Background Logos/logo-about.png");
+    background: no-repeat url("../Resources/Background%20Logos/Logo-hiring.png");
     background-position: 50% 25%;
     background-size: 45%;
    
