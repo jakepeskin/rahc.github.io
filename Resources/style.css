@@ -802,6 +802,10 @@
     footer p {
     margin:0
     }
+
+    .footerlogo{
+        width: 80%;
+    }
     
     footer h5 {
     margin:.5rem 0;
