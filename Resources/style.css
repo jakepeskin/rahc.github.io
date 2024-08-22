@@ -292,7 +292,8 @@
     .descrip {
     max-width:70%;
     text-align:center;
-    margin:9rem auto
+    margin:9rem auto;
+    display:none;
     }
     
     .descrip h2 {

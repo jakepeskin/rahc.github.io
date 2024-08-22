@@ -1,0 +1,149 @@
+h1{
+    padding: 0;
+}
+
+h3{
+    color: #F15B4E;
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: 500;
+    text-align: center;
+}
+
+h4{
+    font-size: 1.35rem;
+    color: #EC7F76;
+    padding: 4rem 0 1rem 0;
+    margin: 0;
+    font-weight: normal;
+}
+
+hr{
+    width: 80%;
+    color: #F15B4E;
+    background-color: #F15B4E;
+}
+
+.jumbotron{
+    background-position: 60%;
+    height: 52vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactus {
+    padding: .9rem 3.8rem;
+    color: white;
+}
+
+.jumbotron a{
+    font-size: 1.3rem;
+}
+
+.overviewdescrip{
+    text-align: center;
+}
+
+.accolades{
+    text-align: center;
+}
+
+.overviewdescrip{
+    width: 55%;
+    padding-bottom: 3rem;
+    margin: auto;
+}
+
+.contentsect{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    padding: 3rem 0;
+}
+
+.grey{
+    background-color: #f9f9f94f;
+}
+
+
+p{
+    margin: 0;
+}
+
+.top-p{
+    padding-top: 2.85rem;
+}
+
+.contentsect img{
+    padding: 3rem 0 0 0;
+    filter:drop-shadow(0px 5px 5px #2a2a2a0a);
+}
+
+.midpic{
+    margin-bottom: 3rem;
+}
+
+.carouselsect{
+    padding: 6rem 0 4rem;
+}
+
+.tinyrect{
+    width: 35%;
+    height: 1px;
+    background-color: #f7a39bcd;
+    margin: 2.5rem auto 0;
+    opacity: .3;
+}
+
+.review-carousel h3{
+    margin: 1em 0;
+    padding: 0;
+    color: black;
+    font-size: 1.6rem;
+}
+
+.review-carousel{
+    padding: 2rem 0 6rem;
+}
+
+.review-carousel p {
+    font-size: 1.15rem;
+    font-weight: 100;
+    margin: .5rem .3rem;
+    line-height: 1.7rem;
+}
+
+.carouselsect h4{
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+}
+
+/*Alzheimers/Dementia*/
+
+.alzjumbo{
+    background-image: url("../Alzheimers-Dementia-Images/dementia-alzheimersHeader.png");
+}
+ 
+.alzpic1{
+    width: 50%;
+}
+
+.alzpic2{
+    width: 90%;
+}
+
+.alzpic3{
+    width: 60%;
+}
+
+.alzpic4{
+    width: 65%;
+}
+
+.alzpic5{
+    width: 70%;
+}
