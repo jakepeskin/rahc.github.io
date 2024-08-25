@@ -1,5 +1,6 @@
 h1{
     padding: 0;
+    font-size: 3.2rem;
 }
 
 h3{
@@ -10,12 +11,29 @@ h3{
     text-align: center;
 }
 
+h2{
+    text-align: center;
+}
+
 h4{
     font-size: 1.35rem;
     color: #EC7F76;
     padding: 4rem 0 1rem 0;
     margin: 0;
     font-weight: normal;
+}
+
+a{
+    color:#F15B4E;
+}
+
+p a:hover{
+    color: #EC7F76;
+}
+
+li{
+    font-size: 1.15rem;
+    margin: .25rem 0;
 }
 
 hr{
@@ -29,6 +47,10 @@ hr{
     height: 52vh;
     flex-direction: column;
     justify-content: center;
+}
+
+.accolades{
+    width: 55%;
 }
 
 .contactus {
@@ -48,10 +70,29 @@ hr{
     text-align: center;
 }
 
-.overviewdescrip{
-    width: 55%;
-    padding-bottom: 3rem;
-    margin: auto;
+.subhead{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 3rem auto;
+    padding: 2.5rem 4rem;
+    border: #F15B4E 1px solid;
+    border-radius: 50px;
+    background: url("../Resources/Images/RAHClighter.png"), #fbfbfb;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16%;
+    filter:drop-shadow(0px 5px 5px #2a2a2a13);
+}
+
+.subhead h2{
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.subhead p{
+    text-align: center;
 }
 
 .contentsect{
@@ -77,8 +118,9 @@ p{
 }
 
 .contentsect img{
-    padding: 3rem 0 0 0;
+    margin: 4rem 0 0 0;
     filter:drop-shadow(0px 5px 5px #2a2a2a0a);
+    border-radius: 5px;
 }
 
 .midpic{
@@ -146,4 +188,99 @@ p{
 
 .alzpic5{
     width: 70%;
+}
+
+/*ALS*/
+
+.alsjumbo{
+    background-image: url("../ALS-Images/ALSHeader.png");
+}
+
+.alspic1{
+    width: 70%;
+}
+
+.alspic2{
+    width: 60%;
+}
+
+/*Cancer*/
+
+.cancerjumbo{
+    background-image: url("../Cancer-Images/cancer-careHeader.png");
+}
+
+.cancerpic1{
+    width: 75%;
+}
+
+.cancerpic2{
+    width: 70%;
+}
+
+.cancerpic3{
+    width: 70%;
+}
+
+.cancerpic4{
+    width: 63%;
+}
+
+/*Parkinsons*/
+
+.parkinsonsjumbo{
+    background-image: url("../parkinsons-Images/parkinsons-careHeader.png");
+}
+
+.parkinsonspic1{
+    width: 90%;
+}
+
+.parkinsonspic2{
+    width: 70%;
+}
+
+.parkinsonspic3{
+    width: 90%;
+}
+
+/*Stroke*/
+
+.strokejumbo{
+    background-image: url("../stroke-care/stroke-careHeader.png");
+}
+
+.strokepic1{
+    width: 80%;
+}
+
+/*Special Needs*/
+
+.autistjumbo{
+    background-image: url("../special-needs-images/special-needsHeader.png");
+}
+
+/*MS Care*/
+
+.msjumbo{
+    background-image: url("../ms-care/ms-careHeader.png");
+}
+
+.ms-carePic1{
+    width: 55%;
+}
+
+.ms-carePic2{
+    width: 65%;
+}
+
+/*Hospice Care*/
+
+.hospicejumbo{
+    background-image: url("../hospice-care/hospice-careHeader.png");
+    background-position-y: 5rem;
+}
+
+.hospicepic1{
+    width: 65%;
 }

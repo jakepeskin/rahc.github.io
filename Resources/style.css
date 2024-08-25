@@ -68,7 +68,7 @@
     header a {
     text-decoration:none;
     color:#181818;
-    font-size:1rem
+    font-size:1.1rem
     }
     
     .logo {
@@ -370,12 +370,12 @@
 
     .services-right a{
         font-size: 1.2rem;
-        color: #f7a39b ;
+        color: #f05a4d;
     }
 
     .services-right a:hover{
         font-size: 1.2rem;
-        color: #f05a4d;
+        color:#f7a39b;
     }
     
     .servicesleft img {
