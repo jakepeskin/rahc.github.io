@@ -168,6 +168,7 @@ p{
 
 .alzjumbo{
     background-image: url("../Alzheimers-Dementia-Images/dementia-alzheimersHeader.png");
+    background-position-y: -6rem;
 }
  
 .alzpic1{
@@ -194,6 +195,7 @@ p{
 
 .alsjumbo{
     background-image: url("../ALS-Images/ALSHeader.png");
+    background-position-y: -2rem;
 }
 
 .alspic1{
@@ -248,6 +250,7 @@ p{
 
 .strokejumbo{
     background-image: url("../stroke-care/stroke-careHeader.png");
+    background-position-y: 1rem;
 }
 
 .strokepic1{
@@ -283,4 +286,131 @@ p{
 
 .hospicepic1{
     width: 65%;
+}
+
+/*Privacy Policy*/
+
+.privacyjumbo{
+    background-color:#EC7F76;
+    background-image: none;
+    height: 32vh;
+    margin: 5.8rem auto;
+    justify-content: flex-start;
+}
+
+/*COVID19 Response*/
+
+.covidsub{
+    background-size: 10%;
+}
+
+/*Timesheet*/
+
+.timejumbo{
+    background-color:#EC7F76;
+    background-image: none;
+    height: 28vh;
+}
+
+.pdf{
+    margin: 3rem 0;
+}
+
+/*Testimonials*/
+
+.testijumbo{
+    background-image: url("../Resources/Images/testimonialsheader.webp");
+    height: 55vh;
+    background-position-y: -4rem;
+}
+
+.quotegrid{
+    width: 75%;
+    margin: 5rem auto;
+    display: grid;
+    column-gap: 3rem;
+    row-gap: 3rem;
+}       
+
+.topgrid{
+    grid-template:
+    'quote1 quote2'
+    'quote3 quote4'
+    'quote5 quote6'
+}
+
+.bottomgrid{
+    grid-template:
+    'quote7 quote8'
+    'quote9 quote10'
+    'quote11 quote12'
+}
+
+.gridquote{
+    border: #F15B4E 1px solid;
+    border-radius: 50px;
+    filter:drop-shadow(0px 5px 5px #2a2a2a13);
+    text-align: center;
+    padding: 2rem;
+    align-self: start;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    h1{
+        font-size: 2.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    li{
+        font-size: 1rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    h4{
+        text-align: center;
+    }
+
+    .jumbotron a{
+        font-size: 1rem;
+    }
+
+    .subhead h2 {
+        font-size: 1.1rem;
+    }
+
+    .contentsect img{
+        width: 100%;
+        margin: 3rem 0 0 0;
+    }
+
+    .subhead{
+        width: 78%;
+        margin: 5rem auto;
+        padding: 1rem 1.5rem;
+        background-size: 40%;
+    }
+
+    .contentsect{
+        width: 75%;
+    }
+
+    .review-carousel p {
+        font-size: 1rem;
+    }
+
+    .review-carousel h3 {
+        font-size: 1.3rem;
+    }
+
+    .carouselsect h4 {
+        font-size: 1.4rem;
+    }
 }

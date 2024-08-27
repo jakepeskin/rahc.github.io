@@ -1,7 +1,7 @@
     html {
     font-size:16px !important;
-    font-family:futura !important;
-    --body-font:futura
+    font-family:Guerrer !important;
+    --body-font:Guerrer
     }
 
     h1 {
@@ -11,11 +11,13 @@
         margin: 3rem auto;
         filter: drop-shadow(0px 5px 5px #2a2a2a00);
         text-align: center;
+        font-weight: bold;
     }
     
     h2 {
     font-size:1.15rem;
     margin:.5rem .3rem
+    font-family: Guerrer
     }
     
     h3 {
@@ -110,7 +112,8 @@
     font-weight:100;
     font-family:var(--body-font);
     position:relative;
-    z-index:23
+    z-index:23;
+    padding: 0 1rem;
     }
     
     .navbutton:hover {
@@ -138,7 +141,7 @@
     
     .jumbotron {
     padding-top:5.8rem;
-    background-image:url("../Resources/Stock%20Photos/Jumbotron/Holdingarm.png");
+    background-image:url("../Resources/Stock%20Photos/Jumbotron/Holdingarm.webp");
     background-repeat:no-repeat;
     background-size:cover;
     display:flex;
@@ -200,7 +203,7 @@
     
     .rightbuttons .navbutton {
     width:30%;
-    padding:.8rem 1.5rem;
+    padding: 1rem 1.75rem;
     filter:drop-shadow(0px 5px 5px #2a2a2a1a);
     }
     
@@ -462,7 +465,7 @@
     
     .caretype h2 {
     padding-bottom:.5rem;
-    font-size:1.75rem;
+    font-size:1.7rem;
     color:#fff
     }
     
