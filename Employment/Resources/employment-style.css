@@ -1,6 +1,5 @@
 .jumbotron{
     background-image: url("../Resources/Images/JumbotronEmployment.png");
-    height: 72vh;
     flex-direction: column;
     justify-content: center;
 }
@@ -38,8 +37,12 @@ p{
 
 .sidesect h2{
     margin:auto;
-    padding-bottom: 1.5rem;
+    padding: .5rem 0 2.5rem 0;
     text-align: center;
+}
+
+.subhead h2{
+    font-size: 1.5rem;
 }
 
 .sidesect{
@@ -63,6 +66,11 @@ p{
     border-bottom-right-radius: 100px;
     border-left: none;
     background-size: 15%;
+}
+
+.employmentsub{
+    background-size: 11%;
+    margin-bottom: 4rem;
 }
 
 

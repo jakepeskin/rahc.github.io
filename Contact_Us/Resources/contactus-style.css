@@ -36,10 +36,9 @@ h1{
     width: 82%;
 }
 
-.accolades h2{
-    font-size: 1.8rem;
-    padding-bottom: .5rem;
-    color: #ec8076;
+.subhead h2{
+    font-size: 1.5rem;
+    color: #ec8076
 }
 
 .contactusbox{
