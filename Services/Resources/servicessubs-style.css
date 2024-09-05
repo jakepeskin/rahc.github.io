@@ -167,7 +167,7 @@ p{
 /*Alzheimers/Dementia*/
 
 .alzjumbo{
-    background-image: url("../Alzheimers-Dementia-Images/dementia-alzheimersHeader.png");
+    background-image: url("../Alzheimers-Dementia-Images/dementia-alzheimersHeader.webp");
     background-position-y: -6rem;
 }
  
@@ -194,7 +194,7 @@ p{
 /*ALS*/
 
 .alsjumbo{
-    background-image: url("../ALS-Images/ALSHeader.png");
+    background-image: url("../ALS-Images/ALSHeader.webp");
     background-position-y: -2rem;
 }
 
@@ -209,7 +209,7 @@ p{
 /*Cancer*/
 
 .cancerjumbo{
-    background-image: url("../Cancer-Images/cancer-careHeader.png");
+    background-image: url("../Cancer-Images/cancer-careHeader.webp");
 }
 
 .cancerpic1{
@@ -231,7 +231,7 @@ p{
 /*Parkinsons*/
 
 .parkinsonsjumbo{
-    background-image: url("../parkinsons-Images/parkinsons-careHeader.png");
+    background-image: url("../parkinsons-Images/parkinsons-careHeader.webp");
 }
 
 .parkinsonspic1{
@@ -249,7 +249,7 @@ p{
 /*Stroke*/
 
 .strokejumbo{
-    background-image: url("../stroke-care/stroke-careHeader.png");
+    background-image: url("../stroke-care/stroke-careHeader.webp");
     background-position-y: 1rem;
 }
 
@@ -260,13 +260,13 @@ p{
 /*Special Needs*/
 
 .autistjumbo{
-    background-image: url("../special-needs-images/special-needsHeader.png");
+    background-image: url("../special-needs-images/special-needsHeader.webp");
 }
 
 /*MS Care*/
 
 .msjumbo{
-    background-image: url("../ms-care/ms-careHeader.png");
+    background-image: url("../ms-care/ms-careHeader.webp");
 }
 
 .ms-carePic1{
@@ -280,7 +280,7 @@ p{
 /*Hospice Care*/
 
 .hospicejumbo{
-    background-image: url("../hospice-care/hospice-careHeader.png");
+    background-image: url("../hospice-care/hospice-careHeader.webp");
     background-position-y: 5rem;
 }
 
