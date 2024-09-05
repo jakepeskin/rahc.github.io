@@ -37,27 +37,27 @@
 
   
 @font-face {
-  font-family: "GuerrerBook";
-  src: url('webFonts/GuerrerBook/font.woff2') format('woff2'), url('webFonts/GuerrerBook/font.woff') format('woff');
+  font-family: "GuerrerLightOblique";
+  src: url('webFonts/GuerrerLightOblique/font.woff2') format('woff2'), url('webFonts/GuerrerLightOblique/font.woff') format('woff');
 }
 @font-face {
   font-family: "GuerrerNormal";
   src: url('webFonts/GuerrerNormal/font.woff2') format('woff2'), url('webFonts/GuerrerNormal/font.woff') format('woff');
 }
 @font-face {
+  font-family: "GuerrerLight";
+  src: url('webFonts/GuerrerLight/font.woff2') format('woff2'), url('webFonts/GuerrerLight/font.woff') format('woff');
+}
+@font-face {
   font-family: "GuerrerNormalOblique";
   src: url('webFonts/GuerrerNormalOblique/font.woff2') format('woff2'), url('webFonts/GuerrerNormalOblique/font.woff') format('woff');
 }
 @font-face {
-  font-family: "GuerrerLightOblique";
-  src: url('webFonts/GuerrerLightOblique/font.woff2') format('woff2'), url('webFonts/GuerrerLightOblique/font.woff') format('woff');
+  font-family: "GuerrerBook";
+  src: url('webFonts/GuerrerBook/font.woff2') format('woff2'), url('webFonts/GuerrerBook/font.woff') format('woff');
 }
 @font-face {
   font-family: "GuerrerBookOblique";
   src: url('webFonts/GuerrerBookOblique/font.woff2') format('woff2'), url('webFonts/GuerrerBookOblique/font.woff') format('woff');
-}
-@font-face {
-  font-family: "GuerrerLight";
-  src: url('webFonts/GuerrerLight/font.woff2') format('woff2'), url('webFonts/GuerrerLight/font.woff') format('woff');
 }
 
