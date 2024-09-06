@@ -4,6 +4,11 @@
     --body-font:GuerrerNormal
     }
 
+    @font-face {
+        font-family: "GuerrerNormal";
+        src: url('../Resources/webFonts/GuerrerNormal/font.woff') format('woff2'), url('../Resources/webFonts/GuerrerNormal/font.woff') format('woff');
+      }
+
     h1 {
         color: white;
         font-size: 3.5rem;
