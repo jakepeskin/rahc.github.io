@@ -36,6 +36,12 @@
     font-size:1.6rem;
     font-weight:500
     }
+
+    li {
+        font-size: 1.15rem;
+        margin: .25rem 0;
+    }
+    
     
     body {
     max-width:100%;
@@ -103,7 +109,8 @@
     align-content:center;
     box-sizing:border-box
     }
-    
+
+
     .navbuttonint {
     grid-area:button;
     display:flex;
