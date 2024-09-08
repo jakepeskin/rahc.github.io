@@ -356,6 +356,29 @@ p{
 }
 
 
+@media only screen and (max-width: 1024px) {
+
+    .topgrid{
+        grid-template:
+        'quote1'
+        'quote2'
+        'quote3' 
+        'quote4'
+        'quote5' 
+        'quote6'
+    }
+    
+    .bottomgrid{
+        grid-template:
+        'quote7' 
+        'quote8'
+        'quote9' 
+        'quote10'
+        'quote11' 
+        'quote12'
+    }
+
+}
 
 @media only screen and (max-width: 480px) {
     h1{
