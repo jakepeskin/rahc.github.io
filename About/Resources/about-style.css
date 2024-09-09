@@ -306,82 +306,6 @@ video{
     margin: 1.5rem auto;
 }
 
-
-/** Save for Later
-
-.events{
-    text-align: center;
-    margin: auto;
-}
-
-.alzheimers{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    padding: 3.5rem 0;
-}
-
-.alzlogo{
-    border: 1px solid #462464;
-}
-
-.alzheimersvid{
-    width: 20%;
-}
-
-.midpics{
-    width: 23%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.grouphoto1{
-    width: 20%;
-}
-
-.mswalk{
-    width: 65%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 5rem;
-}
-
-.one-thousand{
-    width: 53%;
-}
-
-.mspics{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.right{
-    flex-direction: column;
-    width: 39%;
-}
-
-.left{
-    width: 60%;
-}
-
-.five-hundo{
-    width: 100%;
-}
-
-.break2{
-    width: 0%;
-}
-
-.msvid{
-    width: 45%;
-}
-
-**/
-
 @media only screen and (max-width: 480px) {
 
     h2{
@@ -393,13 +317,17 @@ video{
     }
 
     .jumbotron {
-        background-position: 21% 162%;
-        top: 5rem;
+        background-position: 30% 162%;
     }
 
     .jumbotron h2{
         padding: 2rem 0 0 0;
         font-size: 2.4rem;
+    }
+
+    .subhead{
+        width: 85%;
+        padding: 2.5rem 1rem;
     }
 
     .accolades{

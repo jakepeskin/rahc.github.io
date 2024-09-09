@@ -359,7 +359,7 @@ video{
 @media only screen and (max-width: 481px) {
 
     .jumbotron{
-        height: 52vh;
+        background-position-x: -17rem;
     }
 
     .jumbotron a {

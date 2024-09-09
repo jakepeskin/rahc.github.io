@@ -926,7 +926,7 @@
     @media only screen and (min-width: 481px) and (max-width: 1024px) {
 
     .desktop {
-        display :none;
+        display:none;
     }
 
     .jumbotron{
@@ -940,6 +940,7 @@
     .logo {
     max-width: 29%;
     padding-right: 6rem;
+    margin-top: 0;
     }
     
     .rightbuttons .navbutton {
@@ -1056,15 +1057,19 @@
     }
     
     .dropdown-content a {
-    color:#ae5048;
+    color:#110807;
     padding:12px 16px;
     text-decoration:none;
     display:block
     }
     
     .dropdown-content a:hover {
-    background-color:#ddd
+    background-color:#faccc7
     }
+
+    .dropdown-conten a:active {
+        background-color:#faccc7
+      }
     
     .show {
     display:block
@@ -1110,12 +1115,13 @@
     
     .logo {
     max-width:52%;
-    padding-right:3rem
+    padding-right:3rem;
+    margin-top: 0;
     }
     
     .jumbotron {
     padding:0;
-    height:43vh;
+    height: 52vh;
     position:relative;
     top: 4.8rem;
     background-position-x: -32rem;
@@ -1128,6 +1134,13 @@
     align-items: center;
     justify-content: space-around;
     margin: auto;
+    }
+
+    .subhead{
+        margin: 9rem auto 6rem;
+        width: 76%;
+        padding: 2.5rem 1.56rem;
+        background-size: 40%;
     }
 
     .rightcontents {

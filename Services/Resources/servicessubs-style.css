@@ -319,9 +319,13 @@ p{
 /*Testimonials*/
 
 .testijumbo{
-    background-image: url("../Resources/Images/testimonialsheader.webp");
+    background-image: url("../Resources/Stock Photos/TestimonialsHeader.jpg");
     height: 55vh;
     background-position-y: -4rem;
+}
+
+.reviews h2{
+    font-size: 3rem;
 }
 
 .quotegrid{
@@ -387,10 +391,21 @@ p{
 
     p{
         font-size: 1rem;
+        text-align: center;
+    }
+
+    .footerli{
+        font-size: 1.15rem;
+        padding: 0;
+    }
+
+    .dot{
+        padding: 0;
     }
 
     li{
         font-size: 1rem;
+        padding: .2rem 0;
     }
 
     h3{
@@ -414,9 +429,13 @@ p{
         margin: 3rem 0 0 0;
     }
 
+    .quotegrid{
+        width: 92%;
+    }
+
     .subhead{
         width: 78%;
-        margin: 5rem auto;
+        margin: 9rem auto 6rem;
         padding: 1rem 1.5rem;
         background-size: 40%;
     }
