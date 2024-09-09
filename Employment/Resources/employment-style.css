@@ -163,7 +163,7 @@ p{
 }
 
 .lefttext p::before {
-    content:url("../Resources/SVGs/Rosesmaller.png");
+    content:url("../Resources/Images/Rosesmaller.png");
     margin-right:.5rem
 }
 

@@ -615,6 +615,15 @@
     background-color:#f7a39bcd;
     margin:2rem 0
     }
+
+    .panel a{
+        color: #f05a4d ;
+        font-size: 1rem;
+    }
+
+    .panel a:hover{
+        color: #f7a39b ;
+    }
     
     .accordionparent {
     width:75%
