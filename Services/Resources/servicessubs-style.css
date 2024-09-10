@@ -505,4 +505,10 @@ p{
         margin: 0;
         justify-content: center;
     }
+
+    .testijumbo{
+        margin-bottom: 9rem;
+        background-position-y: 0;
+        background-position-x: -19rem;
+    }
 }
