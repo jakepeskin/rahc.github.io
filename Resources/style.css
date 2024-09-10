@@ -701,6 +701,14 @@
     text-align: center;
     }
 
+    .testtext a{
+        color: #f05a4d
+    }
+
+    .testtext a:hover{
+        color: #f7a39b
+    }
+
     .review-carousel {
     padding:1rem 0 6rem
     }
