@@ -164,6 +164,10 @@ p{
     padding: 0;
 }
 
+.textcontainer{
+    width: 100%;
+}
+
 /*Alzheimers/Dementia*/
 
 .alzjumbo{
@@ -467,21 +471,21 @@ p{
     }
 
     .cancerjumbo {
-        background-position-x: -55rem;
+        background-position-x: -32rem;
     }
 
     .alsjumbo{
-        background-position-x: -19rem;
+        background-position-x: -14rem;
         background-position-y: 0;
     }
 
     .strokejumbo{
         background-position-y: 0;
-        background-position-x: -49rem;
+        background-position-x: -34rem;
     }
 
     .parkinsonsjumbo{
-        background-position-x: -45rem;
+        background-position-x: -28rem;
     }
 
     .parkinsonspic1{
@@ -493,7 +497,12 @@ p{
     }
 
     .alzjumbo{
-        background-position-x: -16rem;
+        background-position-x: -18rem;
         background-position-y: 0;
+    }
+
+    .privacyjumbo{
+        margin: 0;
+        justify-content: center;
     }
 }

@@ -714,7 +714,7 @@
     }
     
     .gallery-content {
-    width:80%;
+    width:73%;
     height:100%;
     text-align:center;
     margin:0 auto;
@@ -722,6 +722,10 @@
     border:2px solid #f7a39bcd;
     background-color:#f8f8f8;
     filter: drop-shadow(0px 5px 5px #84848454);
+    }
+
+    .gallery-content p{
+        font-size: 1rem;
     }
     
     .blog-section {
