@@ -202,6 +202,10 @@ label{
     color: black;
 }
 
+textarea{
+    width: 248px;
+}
+
 .submit{
     margin: 2rem auto 2rem auto;
     width: 27%;
