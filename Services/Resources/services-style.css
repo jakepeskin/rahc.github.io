@@ -89,7 +89,7 @@ h3 {
 
 .caretype-text{
     text-align: start;
-    width: 53%;
+    width: 56%;
 }
 
 .care-class h3{
@@ -224,6 +224,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
+    align-items: center;
     margin: 8rem auto;
     border-left: none;
     border-right: none;
@@ -353,6 +354,10 @@ h3 {
         width: 90%;
     }
 
+    .care-time h3{
+        font-size: 1.3rem;
+    }
+
     .caretype-text li{
         font-size: .8rem;
     }
@@ -398,6 +403,8 @@ h3 {
         font-size: 2.5rem;
         padding: 0;
     }
+
+
 
     .jumbotron{
         background-size: 271%;

@@ -31,7 +31,7 @@ p a:hover{
     color: #EC7F76;
 }
 
-li{
+body li{
     font-size: 1.15rem;
     margin: .25rem 0;
 }
@@ -267,6 +267,7 @@ p{
 
 .msjumbo{
     background-image: url("../ms-care/ms-careHeader.webp");
+    background-position-x: 36%;
 }
 
 .ms-carePic1{
@@ -384,12 +385,12 @@ p{
 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 481px) {
     h1{
         font-size: 2.5rem;
     }
 
-    p{
+   body p{
         font-size: 1rem;
         text-align: center;
     }
@@ -399,11 +400,15 @@ p{
         padding: 0;
     }
 
+    .footeraddress p{
+        text-align: left;
+    }
+
     .dot{
         padding: 0;
     }
 
-    li{
+    body li{
         font-size: 1rem;
         padding: .2rem 0;
     }
@@ -436,7 +441,7 @@ p{
     .subhead{
         width: 78%;
         margin: 9rem auto 6rem;
-        padding: 1rem 1.5rem;
+        padding: 2rem 1.5rem;
         background-size: 40%;
     }
 
@@ -454,5 +459,41 @@ p{
 
     .carouselsect h4 {
         font-size: 1.4rem;
+    }
+
+    .hospicejumbo{
+        background-position-x: -45rem;
+        background-position-y: 0;
+    }
+
+    .cancerjumbo {
+        background-position-x: -55rem;
+    }
+
+    .alsjumbo{
+        background-position-x: -19rem;
+        background-position-y: 0;
+    }
+
+    .strokejumbo{
+        background-position-y: 0;
+        background-position-x: -49rem;
+    }
+
+    .parkinsonsjumbo{
+        background-position-x: -45rem;
+    }
+
+    .parkinsonspic1{
+        display: none;
+    }
+
+    .parkinsonspic3{
+        display: none;
+    }
+
+    .alzjumbo{
+        background-position-x: -16rem;
+        background-position-y: 0;
     }
 }
