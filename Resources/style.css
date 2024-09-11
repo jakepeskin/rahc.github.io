@@ -948,16 +948,26 @@
     display:none
     }
     }
+
+    @media only screen and (min-width: 999px) and (max-width: 1024px) {
+        .jumbotron{
+            height: 46vh;
+        }
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 999x) {
+        .jumbotron{
+            height: 73vh;
+        }
+    }
+  
+  
     
     @media only screen and (min-width: 481px) and (max-width: 1024px) {
 
     .desktop {
         display:none;
     }
-
-    .jumbotron{
-        height: 73vh;
-        }
 
     .jumbotron h2{
         font-size: 3rem;
