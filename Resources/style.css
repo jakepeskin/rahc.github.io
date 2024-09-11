@@ -990,6 +990,11 @@
     .jumbotron img {
     width:17%
     }
+
+    .subhead{
+        width: 75%;
+        padding: 2.5rem 4rem;
+    }
     
     .accolades {
     width:70%
