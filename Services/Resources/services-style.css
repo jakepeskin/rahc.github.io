@@ -390,15 +390,13 @@ h3 {
     .stroke {
         background-position-x: -2rem;
         background-size: 117%;
+        background-position-y: 0;
     }
 
     .hospice{
         background-position-x: -2rem;
     }
 
-    .als{
-        background-position-y: -1.5rem;
-    }
 
     .cancer{
         background-position-y: -0.6rem;
@@ -442,11 +440,11 @@ h3 {
     }
 
     .als{
-        background-position-y: 0;
+        background-position-y: 0rem;
     }
 
     .stroke{
-        background-position-y: 0;
+        background-position-y: 0rem;
     }
 
     .caretype-contents h3::before {
