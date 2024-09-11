@@ -445,9 +445,7 @@ video{
 
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
 
-    h1{
-        padding: 6rem 0
-    }
+   
 
     h2{
         font-size: 2rem;
@@ -470,7 +468,7 @@ video{
     }
 
     .jumbotron{
-        background-position-y: -89%;
+        background-position-y: -25%;
         
 
 }

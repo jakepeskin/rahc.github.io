@@ -360,11 +360,7 @@ video{
     .jumbotron{
         background-position-x: -17rem;
     }
-
-    .jumbotron a {
-        font-size: 1.1rem;
-    }
-
+    
     .employmentacc{
         width: 91%;
         margin: 6.5rem auto 6.5rem;

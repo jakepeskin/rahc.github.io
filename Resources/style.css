@@ -965,12 +965,18 @@
     
     @media only screen and (min-width: 481px) and (max-width: 1024px) {
 
+    h1{
+        margin: 2rem auto;
+        font-size: 3rem;
+    }
+
     .desktop {
         display:none;
     }
 
     .jumbotron h2{
         font-size: 3rem;
+        padding-bottom: 1.2rem;
     }
 
     
@@ -1268,6 +1274,7 @@
    .rightbuttons .navbutton {
         width: 65%;
         margin-left: 0;
+        padding: 1.4rem 1.75rem;
     }
 
     

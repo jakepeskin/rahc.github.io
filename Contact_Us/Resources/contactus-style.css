@@ -241,11 +241,11 @@ textarea{
     }
 
     .formheader{
-        width: 80.5%;
+        width: 75.4%;
     }
 
     .bigform{
-        width: 80%;
+        width: 75%;
     }
 
     .jumbobutton{
@@ -307,10 +307,12 @@ textarea{
         font-size: 1.2rem;
     }
 
-  
+    .bigform{
+        background-image: none;
+    }
 
     .jumbotron h2{
-        padding: .2rem 0;
+        padding: .75rem 0;
     }
 
     .jumbotron a{
@@ -345,10 +347,6 @@ textarea{
         padding: .3rem
     }
 
-    .bigform{
-        width: 95%;
-    }
-
     .emailbox{
         flex-direction: column;
     }
@@ -361,10 +359,7 @@ textarea{
         flex-direction: column;
     }
 
-    .formheader{
-        width: 96%;
-    }
-
+    
     .HCAtext {
         padding: 1rem 0;
     }
@@ -383,11 +378,6 @@ textarea{
 
     .formheader{
         padding: 2rem 0;
-    }
-
-    .bigform{
-        background-size: 115%;
-        padding: 3rem 0 5rem 0;
     }
 
     .formrow{
@@ -423,7 +413,7 @@ textarea{
         display: none;
     }
 
-    @media only screen and (max-width: 481px) {
+    @media only screen and (max-width: 480px) {
 
         
     .jumbobutton{
@@ -436,6 +426,15 @@ textarea{
         flex-direction: column;
      }
 
+     .formheader{
+        width: 96%;
+    }
+
+    .bigform{
+        width: 95%;
+        padding: 3rem 0 5rem 0;
+    }
+
      .jumbobuttons{
         width: 90%;
         display: flex;
@@ -443,6 +442,10 @@ textarea{
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+    }
+
+    .jumbotron{
+        height: 44vh;
     }
 
 
