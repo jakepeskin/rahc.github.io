@@ -441,6 +441,18 @@ h3 {
         margin: .5rem auto;
     }
 
+    .als{
+        background-position-y: 0;
+    }
+
+    .stroke{
+        background-position-y: 0;
+    }
+
+    .caretype-contents h3::before {
+        content: url("../Resources/Images/orange-checkipad.png");
+    }
+
 }
 
 @media only screen and (max-width: 480px) {
