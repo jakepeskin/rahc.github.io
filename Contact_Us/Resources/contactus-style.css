@@ -236,12 +236,44 @@ textarea{
         margin: 4rem auto 4rem;
     }
 
+    .formrow{
+        flex-direction: column;
+    }
+
     .formheader{
         width: 80.5%;
     }
 
     .bigform{
         width: 80%;
+    }
+
+    .jumbobutton{
+        width: 45%;
+        margin-bottom: 0;
+    }
+
+    .jumbobuttons{
+        flex-direction: row;
+        width: 70%;
+    }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
+
+    .jumbotron{
+        height: 28vh;
+    }
+
+    .jumbobutton {
+        width: 37%;
+    }
+
+    .formrow{
+        flex-direction: row;
+        margin: 0;
+        justify-content: space-evenly;
     }
 
 }
@@ -279,18 +311,14 @@ textarea{
         font-size: 1.2rem;
     }
 
-    .jumbobuttons{
-        width: 80%;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
+  
 
     .jumbotron h2{
         padding: .2rem 0;
+    }
+
+    .jumbotron a{
+        padding: 0;
     }
 
     .accolades{
@@ -304,10 +332,6 @@ textarea{
 
     .navbutton h2{
         font-size: 1.3rem;
-    }
-
-    .jumbotron{
-        height:52vh;
     }
 
     .boximg {
@@ -327,12 +351,6 @@ textarea{
 
     .bigform{
         width: 95%;
-    }
-
-    .jumbobutton{
-        width: 65%;
-        padding: .2rem 0;
-        margin-bottom: 2rem;
     }
 
     .emailbox{
@@ -377,7 +395,6 @@ textarea{
     }
 
     .formrow{
-        flex-direction: column;
         align-items: center;
         padding: 0;
     }
@@ -408,6 +425,31 @@ textarea{
 
     .boximg{
         display: none;
+    }
+
+    @media only screen and (max-width: 481px) {
+
+        
+    .jumbobutton{
+        width: 65%;
+        padding: .2rem 0;
+        margin-bottom: 2rem;
+     }
+
+     .formrow{
+        flex-direction: column;
+     }
+
+     .jumbobuttons{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
     }
 
 }

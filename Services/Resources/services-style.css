@@ -387,6 +387,60 @@ h3 {
         font-size: 1rem;
     }
 
+    .stroke {
+        background-position-x: -2rem;
+        background-size: 117%;
+    }
+
+    .hospice{
+        background-position-x: -2rem;
+    }
+
+    .als{
+        background-position-y: -1.5rem;
+    }
+
+    .cancer{
+        background-position-y: -0.6rem;
+    }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
+
+    .care-class h3{
+        padding: 0;
+    }
+
+    ul{
+        padding-inline-start: 1rem;
+    }
+
+    .caretype-element{
+        width: 46%;
+    }
+
+    .carerow{
+        flex-wrap: wrap;
+    }
+
+    .trans{
+        margin-top: 2rem;
+    }
+
+    .rahclogo-b{
+        display: none;
+    }
+
+    .caretype-header h2 {
+        font-size: 1.2rem;
+    }
+
+    .caretype h3 {
+        font-size: .7rem;
+        margin: .5rem auto;
+    }
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -506,8 +560,8 @@ h3 {
     }
 
     .csheader{
-        width: 92%;
-        padding: 2rem 1rem;
+        width: 88%;
+        padding: 1.8rem 1rem;
         background-size: 45%;
     }
 
@@ -525,6 +579,11 @@ h3 {
 
     .Dls{
         width: 100%;
+        padding: 0;
+    }
+
+    .dpad{
+        margin-bottom: 2.5rem;
     }
 
     .twocolumn{

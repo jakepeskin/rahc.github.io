@@ -905,11 +905,15 @@
     @media only screen and (min-width: 1025px) and (max-width: 1258px) {
     
     .jumbotron{
-    height: 64vh;
+    height: 55vh;
     }
     
     .jumbotroncontents {
     width:91%
+    }
+
+    .jumbtron img{
+    width: 24%;
     }
     
     header a {
@@ -952,16 +956,21 @@
     }
 
     .jumbotron{
-        height: 64vh;
+        height: 73vh;
         }
+
+    .jumbotron h2{
+        font-size: 3rem;
+    }
+
     
     .menu {
     height:3.3rem
     }
     
     .logo {
-    max-width: 29%;
-    padding-right: 6rem;
+    max-width: 24%;
+    padding-right: 9rem;
     margin-top: 0;
     }
     
@@ -971,10 +980,6 @@
 
     .jumbotroncontents {
     width:100%
-    }
-    
-    .jumbotron h2 {
-    font-size:2.4rem
     }
     
     .jumbotron a {
@@ -1017,17 +1022,35 @@
     }
     
     .blogs {
-    height:135%
+    height:205%
+    }
+    .blog-section a{
+        padding: 1rem 3rem;
     }
     
     .blog-section h4 {
     width:175px
     }
 
+    .allrights{
+        padding-top: 0;
+       }
+        
+
+   footer h5{
+    font-size: .8rem;
+    width: 80%;
+    margin: 0;
+   }
+
    
-    
     footer a {
-    font-size:1.1rem
+    font-size:1rem
+    }
+
+    footer p{
+        font-size:1rem;
+
     }
     
     .footercontents {
@@ -1041,6 +1064,39 @@
     .footerlogo img {
     width:93%
     }
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
+
+        .jumbotron{
+            height: 28vh;
+        }
+
+       
+        .blogs{
+            height: 65%;
+        }
+
+        .caretype h2{
+            font-size: 1.4rem;
+        }
+
+        .caretypes{
+            max-width: 95%;
+        }
+
+        .caretype{
+            width: 31%;
+        }
+
+        .caretype-header{
+            padding: .5rem 1rem;
+        }
+
+        .caretype h3 {
+            font-size: .9rem;
+        }
+
     }
     
     @media only screen and (max-width: 1024px) {
@@ -1489,10 +1545,6 @@
     .footercontents {
     display:flex;
     flex-direction:column
-    }
-    
-    footer a {
-    font-size:1.1rem
     }
     
     .footeraddress {

@@ -33,7 +33,7 @@ p a:hover{
 
 body li{
     font-size: 1.15rem;
-    margin: .25rem 0;
+    margin: 1rem 0;
 }
 
 hr{
@@ -164,8 +164,8 @@ p{
     padding: 0;
 }
 
-.textcontainer{
-    width: 100%;
+footer li{
+    margin: 0;
 }
 
 /*Alzheimers/Dementia*/
@@ -386,6 +386,80 @@ p{
         'quote11' 
         'quote12'
     }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px){
+
+    h1{
+        font-size: 2.6rem;
+    }
+
+    .jumbotron{
+        height: 64vh;
+    }
+
+    .contentsect{
+        width: 75%;
+    }
+
+    .subhead{
+        width: 75%;
+    }
+
+    .contentsect{
+        width: 75%;
+    }
+
+    footer li{
+        font-size: 1rem;
+    }
+
+    .jumbotron a{
+        font-size: 1rem;
+    }
+
+    h1 {
+        margin: 2rem auto;
+    }
+
+    .testijumbo{
+        background-position-y: 2rem;
+    }
+
+    .alzjumbo{
+        background-position-y: 1rem;
+    }
+
+    .alsjumbo{
+        background-position-y: 3rem;
+    }
+
+    .privacyjumbo{
+        margin: 0;
+        justify-content: center;
+        height: 28vh;
+    }
+
+    .subhead{
+        margin: 4rem auto 3rem auto;
+    }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait){
+
+    .jumbotron{
+        height: 28vh;
+    }
+
+    .privacyjumbo{
+        margin: 0;
+        justify-content: center;
+        height: 15vh;
+    }
+
+
 
 }
 

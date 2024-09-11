@@ -469,13 +469,22 @@ video{
         font-size: 1rem;
     }
 
-    .circlepics{
-        display: none;
-    }
+    .jumbotron{
+        background-position-y: -89%;
+        
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
 
     .jumbotron{
-        background-position-y: -87%;
-        background-position-x: 42%;
+        background-position-y: 3rem;
+    }
+
+    }
+
+    .circlepics{
+        display: none;
     }
 
     .accolades p{
