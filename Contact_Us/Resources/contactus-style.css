@@ -249,7 +249,7 @@ textarea{
     }
 
     .jumbobutton{
-        width: 45%;
+        width: 36%;
         margin-bottom: 0;
     }
 
@@ -264,10 +264,6 @@ textarea{
 
     .jumbotron{
         height: 28vh;
-    }
-
-    .jumbobutton {
-        width: 37%;
     }
 
     .formrow{
