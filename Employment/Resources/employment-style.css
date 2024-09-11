@@ -360,7 +360,7 @@ video{
     .jumbotron{
         background-position-x: -17rem;
     }
-    
+
     .employmentacc{
         width: 91%;
         margin: 6.5rem auto 6.5rem;
@@ -388,6 +388,7 @@ video{
     .lefttext2{
         width: 100%;
         text-align: center;
+        padding-left: 0;
     }
 
     .lefttext2 h2{

@@ -981,17 +981,13 @@
 
     
     .menu {
-    height:3.3rem
+    height:2rem
     }
     
     .logo {
-    max-width: 24%;
+    max-width: 17%;
     padding-right: 9rem;
     margin-top: 0;
-    }
-    
-    .rightbuttons .navbutton {
-        padding: .75rem 1rem;
     }
 
     .jumbotroncontents {
@@ -1096,7 +1092,7 @@
 
        
         .blogs{
-            height: 65%;
+            height: 77%;
         }
 
         .caretype h2{
@@ -1538,11 +1534,11 @@
     .bottom-button a {
     display:flex;
     align-items:center;
-    font-size:1.1rem;
+    font-size: 1.4rem;
     text-decoration:none;
     color:#181818;
     width:28%;
-    justify-content:space-between
+    justify-content:space-around;
     }
     
     .fa-phone-volume {
