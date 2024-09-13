@@ -1025,6 +1025,10 @@
     .accolades2 {
     width:70%
     }
+
+    .caretype h2{
+        font-size: 1.7rem;
+    }
     
     .buttonandmap {
     height:auto
