@@ -447,7 +447,7 @@ h3 {
     }
 
     .stroke{
-        background-position-y: 0rem;
+        background-position-y: -.5rem;
     }
 
     .caretype-contents h3::before {

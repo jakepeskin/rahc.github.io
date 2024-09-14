@@ -92,10 +92,13 @@
     }
     
     .logo {
-    grid-area:logo;
-    width:105%;
     margin-top:-.25rem;
-    max-width:45%
+    width: 100%;
+    }
+
+    .logoa{
+        grid-area:logo;
+        max-width: 45%;
     }
     
     header ul {
@@ -985,9 +988,14 @@
     }
     
     .logo {
-    max-width: 17%;
-    padding-right: 9rem;
+    max-width: 100%;
+    
     margin-top: 0;
+    }
+
+    .logoa{
+        max-width: 17%;
+        padding-right: 9rem;
     }
 
     .jumbotroncontents {
@@ -1214,9 +1222,14 @@
     }
     
     .logo {
-    max-width:52%;
-    padding-right:3rem;
+    max-width:100%;
+    
     margin-top: 0;
+    }
+    
+    .logoa {
+        max-width:34%;
+        padding-right:3rem;
     }
     
     .jumbotron {
