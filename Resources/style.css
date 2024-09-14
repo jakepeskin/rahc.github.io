@@ -751,7 +751,6 @@
     
     .blog-section {
     width:65%;
-    height:35%;
     margin:9rem auto;
     padding-bottom:4.5rem;
     text-align:center
@@ -763,7 +762,7 @@
     
     .blog-section a {
     font-weight:100;
-    padding:2rem 3rem;
+    padding:0 3rem;
     font-size:1.2rem;
     color:#eee;
     text-decoration:none
@@ -785,6 +784,10 @@
     background-size:cover;
     background-position:center;
     justify-content: center;
+    }
+
+    .blogrect{
+        height: .5%;
     }
     
     .blog a:hover {
@@ -899,6 +902,14 @@
     font-weight:lighter
     }
     
+    @media only screen and (min-width: 1385px) {
+        .blog-section a {
+            padding: 2rem 3rem;
+        }
+
+        }
+
+
     @media only screen and (min-width: 1025px) {
     .tablet-mobile {
     display:none
@@ -953,6 +964,12 @@
     }
 
     @media only screen and (min-width: 999px) and (max-width: 1024px) {
+        .jumbotron{
+            height: 46vh;
+        }
+    }
+
+    @media only screen and (min-width: 902px) and (max-width: 1024px) {
         .jumbotron{
             height: 46vh;
         }
@@ -1027,7 +1044,7 @@
     }
     
     .gallery-content {
-    width:86%
+    width:80%
     }
     
     .accolades2 {
@@ -1048,19 +1065,13 @@
     
     .blog-section {
     width:85%;
-    height:25%
     }
-    
-    .blogs {
-    height:205%
-    }
+
     .blog-section a{
-        padding: 1rem 3rem;
+        padding: 0 3rem;
+
     }
-    
-    .blog-section h4 {
-    width:175px
-    }
+
 
     .allrights{
         padding-top: 0;
@@ -1100,11 +1111,6 @@
 
         .jumbotron{
             height: 28vh;
-        }
-
-       
-        .blogs{
-            height: 77%;
         }
 
         .caretype h2{
@@ -1510,7 +1516,6 @@
     
     .blogs .mobile {
     display:flex;
-    height:85%;
     text-align:center;
     justify-content:space-between;
     overflow-x:scroll;
@@ -1523,7 +1528,7 @@
     }
     
     .blogs.mobile a {
-        padding: 1rem 1.5rem;
+        padding: 2rem 1rem;
         display: flex;
         align-items: center;
         align-content: flex-start;
