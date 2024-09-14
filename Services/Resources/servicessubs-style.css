@@ -198,8 +198,8 @@ footer li{
 /*ALS*/
 
 .alsjumbo{
-    background-image: url("../ALS-Images/ALSHeader.webp");
-    background-position-y: -2rem;
+    background-image: url("../ALS-Images/ALSHeader.jpg");
+    background-position-y: 5rem;
 }
 
 .alspic1{
@@ -270,7 +270,7 @@ footer li{
 /*MS Care*/
 
 .msjumbo{
-    background-image: url("../ms-care/ms-careHeader.webp");
+    background-image: url("../ms-care/MSCareHeader.jpg");
     background-position-x: 36%;
 }
 
@@ -396,7 +396,7 @@ footer li{
     }
 
     .jumbotron{
-        height: 64vh;
+        height: 42vh;
     }
 
     .contentsect{

@@ -5,7 +5,7 @@ h1{
 
 .jumbotron{
     flex-direction: column;
-    height: 58vh;
+    height: 52vh;
     background-image: url('../Resources/Contact_Us_Stock_Photos/ContactUsJumobtronIMG.webp');
     display: flex;
     justify-content: space-evenly;
