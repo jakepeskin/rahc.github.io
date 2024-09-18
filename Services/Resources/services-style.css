@@ -470,6 +470,7 @@ h3 {
     .jumbotron{
         background-size: 271%;
         background-position: 49% -42px;
+        background-position-y: bottom;
     }
 
     .care-times{

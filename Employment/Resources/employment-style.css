@@ -361,6 +361,10 @@ video{
         background-position-x: -17rem;
     }
 
+    .subhead{
+        background-size: 33%;
+    }
+
     .employmentacc{
         width: 91%;
         margin: 6.5rem auto 6.5rem;
