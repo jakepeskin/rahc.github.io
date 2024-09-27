@@ -1118,6 +1118,11 @@
     .footerlogo img {
     width:93%
     }
+
+    .indexh1{
+        font-size: 1.4rem;
+    }
+
     }
 
     @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
@@ -1145,6 +1150,7 @@
         .caretype h3 {
             font-size: .9rem;
         }
+
 
     }
     
@@ -1229,6 +1235,10 @@
 
     h1{
         font-size: 3rem;
+    }
+
+    .indexh1{
+        text-align: center;
     }
 
     .desktop {
