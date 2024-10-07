@@ -203,6 +203,11 @@ footer li{
     padding: .75rem 1rem
 }
 
+.testh1{
+    padding-bottom: 2.2rem;
+}
+
+
 /*Alzheimers/Dementia*/
 
 .alzjumbo{
@@ -334,8 +339,6 @@ footer li{
     background-color:#EC7F76;
     background-image: none;
     height: 32vh;
-    margin: 5.8rem auto;
-    justify-content: flex-start;
 }
 
 /*COVID19 Response*/

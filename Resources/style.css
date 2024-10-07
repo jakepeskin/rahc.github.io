@@ -23,7 +23,7 @@
         margin:.5rem .3rem;
         padding: 0;
         color: black;
-        text-align: start;
+        text-align: center;
     }
 
     .h1h2{
@@ -355,10 +355,10 @@
     }
     
     .descrip {
-    max-width:70%;
+    width:60%;
     text-align:center;
     margin:9rem auto;
-    display:none;
+    display: none;
     }
     
     .descrip h2 {
@@ -368,12 +368,11 @@
     .buttonandmap {
     display:flex;
     flex-wrap:wrap;
-    height:47%;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items:center;
     padding:3rem 0 0;
     margin:0 auto;
-    width:85%;
+    width:100%;
     box-sizing:border-box
     }
     
@@ -383,11 +382,6 @@
     border:2px solid #f7a39b95;
     border-radius:5px;
     padding:.75rem 0 .75rem .5rem
-    }
-    
-    .ziplookup {
-    height:15%;
-    white-space:nowrap
     }
     
     .ziplookupbotton {
@@ -403,8 +397,8 @@
     }
     
     .buttonandmap img {
-    height:100%;
-    filter:drop-shadow(0px 10px 5px #8484842a)
+    filter:drop-shadow(0px 10px 5px #8484842a);
+    width: 40%;
     }
     
     .services {
