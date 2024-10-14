@@ -613,6 +613,10 @@
     width:14%
     }
     
+    .va{
+        width: 10%;
+    }
+    
     .faqtext h2 {
     font-size:2rem;
     margin:0
@@ -697,6 +701,17 @@
     display:none;
     background-color:#f8f8f8;
     overflow:hidden
+    }
+
+    .vapanel{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .vapanel img{
+        width: 35%;
+        padding-right: 3rem;
     }
     
     .testimonials{

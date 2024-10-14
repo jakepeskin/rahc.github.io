@@ -584,39 +584,4 @@ footer li{
 
     .alsjumbo{
         background-position-x: -14rem;
-        background-position-y: 0;
-    }
-
-    .strokejumbo{
-        background-position-y: 0;
-        background-position-x: -34rem;
-    }
-
-    .parkinsonsjumbo{
-        background-position-x: -28rem;
-    }
-
-    .parkinsonspic1{
-        display: none;
-    }
-
-    .parkinsonspic3{
-        display: none;
-    }
-
-    .alzjumbo{
-        background-position-x: -18rem;
-        background-position-y: 0;
-    }
-
-    .privacyjumbo{
-        margin: 0;
-        justify-content: center;
-    }
-
-    .testijumbo{
-        margin-bottom: 9rem;
-        background-position-y: 0;
-        background-position-x: -19rem;
-    }
-}
+        background-po
