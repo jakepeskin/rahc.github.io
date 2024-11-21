@@ -39,7 +39,7 @@
                 <li class="navitem"><a href="Contact_Us/contactus.html">Contact Us</a></li>
             </ul>
             <div class="navbuttonint">
-            <a href="https://gary838.wixsite.com/rahc/booking-calendar/looking-for-in-home-care?referral=service_list_widget" class="navbutton">
+            <a href="tel:323-937-3022" class="navbutton">
                 <i class="fa-solid fa-phone-volume fa-xl"></i>
                 <h2>(323) 937-3022</h2>
             </a>
@@ -130,8 +130,11 @@
 
                 <div class="buttonandmap">
                     <div class="ziplookup">
-                        <input class="PagePromo-input" type="text" name="zipLookup" maxlength="5" minlength="5" placeholder="Zip or Postal Code">
-                        <button class="ziplookupbotton" type="submit">Find Care</button>
+                        
+                        <input class="PagePromo-input" type="text" id="zipEntry" name="zipEntry" pattern="[0-9]{5}" placeholder="Zip or Postal Code">
+                        <input type="submit" onclick="zipcode()" class="ziplookupbotton" value="Find Care">
+                        <script src="Resources/JS/zipcode.js"></script>
+                        
                     </div>
                     <img src="Resources/Map%20Stuff/LACountyDistrictsPink.svg"/>
                 </div>
