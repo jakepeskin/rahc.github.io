@@ -1,3 +1,24 @@
 .jumbotron{
     background-image: url("../resources/jumbotronimage.jpg");
 }
+
+h3{
+    font-size: 1.4rem;
+    color: #F15B4E;
+    margin-block-start: .5rem;
+}
+
+.cityzipgrid{
+    margin: auto;
+    display: grid;
+    width: 75%;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 2rem;
+}
+
+.cityzipcell{
+    background-color: #FBFBFB;
+    padding: 1rem;
+    border: 1px solid #F15B4E;
+    border-radius: 10px;
+}
