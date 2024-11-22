@@ -8,12 +8,17 @@ h3{
     margin-block-start: .5rem;
 }
 
+p{
+    color:black
+}
+
 .cityzipgrid{
     margin: auto;
     display: grid;
     width: 75%;
     grid-template-columns: auto auto auto auto auto auto;
     gap: 2rem;
+    margin-bottom: 8rem;
 }
 
 .cityzipcell{
@@ -21,4 +26,82 @@ h3{
     padding: 1rem;
     border: 1px solid #F15B4E;
     border-radius: 10px;
+}
+
+
+
+.cityzipcell:hover{
+    background-color: #F7A39B;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.144));
+    transition: background-color .3s;
+    transition: filter .3s;
+    h3{
+        color: white;
+        transition: background-color .3s;
+    }
+}
+
+@media only screen and (min-width: 1258px) {
+
+    .longcellp{
+        grid-row-start: 9;
+        grid-row-end: 11;
+    }
+    
+    .longcells{
+        grid-row-start: 11;
+        grid-row-end: 13;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1258px) {
+
+    .cityzipgrid{
+        grid-template-columns: auto auto auto auto;
+    }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    
+    .cityzipgrid{
+        grid-template-columns: auto auto auto;
+    }
+
+    .subhead{
+        background-size: 14%;
+    }
+
+    .longcellp{
+        grid-row-start: 18;
+        grid-row-end: 20;
+    }
+
+    .longcells{
+        grid-row-start: 19;
+        grid-row-end: 20;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .cityzipgrid{
+        grid-template-columns: auto;
+        width: 70%;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    h1{
+        font-size: 2.8rem;
+    }
+
+    .jumbotron{
+        background-position-x: -12rem;
+    }
+
 }

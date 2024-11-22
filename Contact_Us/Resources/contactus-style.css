@@ -54,13 +54,8 @@ h1{
 }
 
 .callbox{
-    background-color: #f5d9d5;
-    right: 2rem;
-}
-
-.emailbox{
     background-color: #e2e2e2;
-    left: 2rem;
+    right: 2rem;
 }
 
 .contactustextbox{
@@ -446,6 +441,7 @@ textarea{
 
     .jumbotron{
         height: 44vh;
+        background-position-x: -14rem;
     }
 
 
