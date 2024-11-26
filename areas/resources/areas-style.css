@@ -1,16 +1,41 @@
+
+
 .jumbotron{
-    background-image: url("../resources/jumbotronimage.jpg");
+    background-image: url("../resources/jumbotronimages/jumbotronimage.jpg");
+    align-items: flex-start;
 }
 
-h3{
-    font-size: 1.4rem;
-    color: #F15B4E;
-    margin-block-start: .5rem;
+.neighborjumbo{
+    background-image: url("../neighborhoods/resources/areasjumbotron.png");
+    
 }
 
-p{
-    color:black
+h1{
+    color: black;
+    font-size: 1.8rem;
+    margin: .5rem auto 2rem;
+
 }
+
+.jumbocard{
+    width: 22%;
+    background-color: #ffffffea;
+    margin-left: 11rem;
+    border-radius: 20px;
+    box-shadow:inset 0px 0px 0px 3px  #f7a39bbf;
+    padding: 2.5rem 1.5rem;
+    filter: drop-shadow(0 0 0.75rem rgba(179, 179, 179, 0.323));
+}
+
+.jumbotron a{
+    width: 40%;
+    margin: 1rem auto 0 auto;
+}
+
+.subhead{
+    width: 65%;
+}
+
 
 .cityzipgrid{
     margin: auto;
@@ -28,7 +53,93 @@ p{
     border-radius: 10px;
 }
 
+.cityzipcell h3{
+    font-size: 1.4rem;
+    color: #F15B4E;
+    margin-block-start: .5rem;
+}
 
+.raquel h2{
+    font-size: 2.5rem;
+}
+
+.miniabout{
+    margin: 8rem auto;
+    display: flex; 
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 75%;
+}
+
+.miniaboutright{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.miniaboutright h2{
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.miniaboutright p{
+    color:black;
+    margin: 0;
+}
+
+.aboutimg{
+    width: 45%;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.144));
+}
+
+.tinyrect{
+    height: 5px;
+    margin: 1.5rem 0;
+}
+
+.DLs{
+    flex-direction: column;
+}
+
+.Dls a{
+    flex-direction: row;
+    display: flex;
+    margin: 1rem auto;
+}
+
+.caretype{
+    width: 92%;
+    margin: auto;
+}
+
+.caretype-header{
+    width: 20%;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 0;
+}
+
+.caretype h2{
+    font-size: 1.6rem;
+}
+
+.caretype-contents{
+    display: flex;
+    width: 71%;
+    justify-content: space-evenly;
+
+}
+
+.caretype-header{
+    padding: 1.5rem 3rem;
+}
+
+.caretypecolumns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
 
 .cityzipcell:hover{
     background-color: #F7A39B;
@@ -41,6 +152,146 @@ p{
     }
 }
 
+.caretypes{
+    padding:0;
+}
+
+.accolades2 {
+    margin: 8rem auto;
+}
+
+.videoreel{
+    padding: 0;
+}
+
+.videoreel{
+    width: 90%;
+    padding: 0rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.videoreeltitle{
+    width: 100%;
+    text-align: center;
+}
+
+.videofullcontainer{
+    width: 60%;
+    background-color: #f5d9d5;
+    display: flex;
+    padding: 1.5rem 0;
+    border-radius: 50px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    justify-content: space-evenly;
+    filter:drop-shadow(0px 5px 5px #2a2a2a1a);
+}
+
+.videoreel-text{
+    width: 52%;
+}
+
+.videoreel-text p{
+    padding-top: 2rem;
+}
+
+.videos{
+    width: 29%;
+}
+
+video{
+    width: 100%;
+}
+
+.circlepics{
+    width: 32%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.circlepic {
+    border-radius: 200px;
+    position: relative;
+    border: 3px solid #f7a39b;
+    filter:drop-shadow(0px 5px 5px #2a2a2a1a)
+}
+
+.caregiver.c1 {
+    width: 41%;
+    left: 2rem;
+}
+
+.caregiver.c2 {
+    top: 7rem;
+    width: 48%;
+}
+
+
+.caregiver.c3 {
+    width: 38%;
+    top: -4rem;
+    left: -4rem;
+}
+
+.care-times{
+    display: flex;
+    text-align: center;
+    width: 63%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 3rem auto 4rem auto;
+    border: 1px solid #f05e4f;
+    box-sizing: border-box;
+    padding: 1.5rem 0;
+    border-radius: 500px;
+}
+
+
+.cta{
+    width: 50%;
+    align-items: center;
+    margin: 8rem auto;
+    padding: 1.5rem 4rem;
+    background-color: #f7a39b0f;
+    border-radius: 120px;
+}
+
+.ctabutton {
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: #f7a39b;
+    cursor: pointer;
+}
+
+.ctabutton a{
+    color: black;
+    font-size: 1.2rem;
+}
+
+.testimonials{
+    padding: 2rem 0;
+}
+
+.faqsection{
+    margin: 6rem auto 8rem;
+}
+
+.blog-section {
+    margin: 9rem auto 3rem;
+}
+
+.blogrect{
+    margin: 2rem auto
+}
+
+
 @media only screen and (min-width: 1258px) {
 
     .longcellp{
@@ -52,6 +303,16 @@ p{
         grid-row-start: 11;
         grid-row-end: 13;
     }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:landscape) {
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    
 
 }
 
@@ -83,9 +344,83 @@ p{
         grid-row-end: 20;
     }
 
+    .jumbocard{
+        width: 40%;
+        margin-left: 5rem;
+    }
+
+    .cta{
+        width: 95%;
+    }
+
+    .caretype{
+        width: 100%;
+    }
+
+    .caretype h3 {
+    font-size: 1rem;
+    }
+
+    .caretype h2{
+        font-size: 1.2rem;
+    }
+
+    .circlepics{
+        display: none;
+    }
+
+    .videofullcontainer{
+        width: 100%;
+    }
+
+
 }
 
+@media only screen and (max-width: 1024px) {
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .miniabout{
+        flex-direction: column;
+    }
+
+    .miniaboutright {
+        width: 100%;
+    }
+
+    .miniaboutright h2 {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .tinyrect{
+        margin: 1.5rem auto;
+    }
+
+    .aboutimg{
+        width: 75%;
+        margin: 0 auto 3rem;
+    }
+
+    .miniaboutright h2 {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .miniaboutright p{
+        text-align: center;
+    }
+
+}
+
+
 @media only screen and (max-width: 480px) {
+
+    .desktop-tablet {
+        display: none;
+    }
 
     .cityzipgrid{
         grid-template-columns: auto;
@@ -96,12 +431,140 @@ p{
         font-size: 1.5rem;
     }
 
-    h1{
+    .directh1{
         font-size: 2.8rem;
     }
 
     .jumbotron{
         background-position-x: -12rem;
     }
+
+    .neighborjumbo{
+        background-position-x: -40rem;
+    }
+
+    .jumbocard{
+        width: 75%;
+        margin: auto;
+    }
+
+    .jumbotron a{
+        width: 45%;
+    }
+
+    .miniabout{
+        flex-direction: column;
+    }
+
+    .aboutimg{
+        display: none;
+    }
+
+    .miniaboutright {
+        width: 100%;
+    }
+
+    .accolades.mobile{
+        margin: 8rem auto 8rem;
+    }
+
+    .caretype{
+        width: 100%;
+    }
+
+    .caretype-contents{
+        width: 100%;
+    }
+
+    .caretype-contents{
+        flex-direction: column;
+    }
+
+    .caretypecolumns{
+        align-items: center;
+    }
+
+    .circlepics{
+        display: none;
+    }
+
+    .videofullcontainer{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 0;
+        border-radius: 30px;
+        filter: none;
+    }
+
+    .videoreel{
+        text-align: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    .videoreel h2{
+        padding: 0 1rem 2rem 1rem;
+    }
+
+    .videos{
+        width: 62%;
+        
+    }
+
+    .videoreel-text{
+        width: 90%;
+    }
+
+    .caretypes-title h2 {
+        font-size: 1.75rem;
+    }
+
+    .raquel h2 {
+        font-size: 2.3rem;
+    }
+
+    .caretype h2{
+        font-size: 1.4rem;
+        padding: .5rem;
+    }
+
+    .caretype-header{
+        width: 100%;
+        padding: 0.5rem 0rem;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0;
+    }
+
+    .cta{
+        flex-direction: column;
+        width: 90%;
+        padding: 2.5rem 4rem;
+    }
+
+    .ctabutton a{
+        font-size: 1rem;
+    }
+
+    .ctah3{
+        margin-block-start: 0;
+        font-size: 1.3rem;
+        padding-bottom: 1rem;
+    }
+
+    .Dls a{
+        flex-direction: column;
+    }
+
+    .badges{
+        height: 90vh;
+    }
+
+    .va{
+        width: 33%;
+    }
+
 
 }

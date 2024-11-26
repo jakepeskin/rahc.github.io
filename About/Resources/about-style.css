@@ -473,14 +473,17 @@ video{
         background-position-y: -25%;
         
 
-}
+
+    }
+
+   
 
 @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
 
     .jumbotron{
         background-position-y: 3rem;
     }
-
+    
     }
 
     .circlepics{
@@ -547,6 +550,8 @@ video{
         font-size: 1.3rem;
     }
 
+
+    
     .flickity-slider {
         transform: none;
     }
