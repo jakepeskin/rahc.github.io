@@ -10,11 +10,10 @@
     
 }
 
-h1{
+.cardh1{
     color: black;
     font-size: 1.8rem;
     margin: .5rem auto 2rem;
-
 }
 
 .jumbocard{
@@ -36,7 +35,6 @@ h1{
     width: 65%;
 }
 
-
 .cityzipgrid{
     margin: auto;
     display: grid;
@@ -53,10 +51,26 @@ h1{
     border-radius: 10px;
 }
 
+.cityzipcell p{
+    color: black
+}
+
 .cityzipcell h3{
     font-size: 1.4rem;
     color: #F15B4E;
     margin-block-start: .5rem;
+}
+
+.cityzipcell:hover{
+    background-color: #F7A39B;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.144));
+    h3{
+        color: white;
+    }
+    p{
+        color: white;
+    }
+    
 }
 
 .raquel h2{
@@ -141,16 +155,7 @@ h1{
     align-items: flex-start;
 }
 
-.cityzipcell:hover{
-    background-color: #F7A39B;
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.144));
-    transition: background-color .3s;
-    transition: filter .3s;
-    h3{
-        color: white;
-        transition: background-color .3s;
-    }
-}
+
 
 .caretypes{
     padding:0;
@@ -306,12 +311,40 @@ video{
 
 }
 
+@media only screen and (min-width: 1025px) and (max-width: 1281px) {
+
+    .jumbocard{
+        width: 30%;
+        padding: 1.5rem 1.5rem;
+        margin-left: 6rem;
+    }
+
+}
+
 @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:landscape) {
 
-    h1 {
+    .cardh1 {
+        font-size: 1rem;
+    }
+
+    .jumbocard{
+        width: 38%;
+        margin-left: 3rem;
+        padding: 1.5rem 1.5rem;
+    }
+    
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
+
+    .cardh1 {
         font-size: 1.3rem;
     }
 
+    .jumbocard{
+        width: 40%;
+    }
     
 
 }
@@ -344,11 +377,6 @@ video{
         grid-row-end: 20;
     }
 
-    .jumbocard{
-        width: 40%;
-        margin-left: 5rem;
-    }
-
     .cta{
         width: 95%;
     }
@@ -377,10 +405,6 @@ video{
 }
 
 @media only screen and (max-width: 1024px) {
-
-    h1{
-        font-size: 1.5rem;
-    }
 
     .miniabout{
         flex-direction: column;
