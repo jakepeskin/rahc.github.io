@@ -195,7 +195,7 @@ function zipcode() {
         window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
     } else{
         link = 'areas';
-        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link); 
+        window.location.assign("https://www.rosesagencyhomecare.com/" + link); 
     }
     
 }
