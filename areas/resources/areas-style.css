@@ -27,12 +27,12 @@
 }
 
 .jumbotron a{
-    width: 40%;
     margin: 1rem auto 0 auto;
 }
 
 .subhead{
     width: 65%;
+    background-size: 7%;
 }
 
 .cityzipgrid{
@@ -155,7 +155,9 @@
     align-items: flex-start;
 }
 
-
+.directbutton a{
+    width: 9%;
+}
 
 .caretypes{
     padding:0;

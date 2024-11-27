@@ -207,7 +207,7 @@
     font-size:3.4rem;
     padding-bottom:2.2rem;
     color:#fff;
-    width:81%
+    width:80%
     }
     
     .jumbotron a {
@@ -240,14 +240,14 @@
     }
     
     .rightbuttons {
-    width:68%;
+    width:82%;
     display:flex;
-    justify-content:center;
+    justify-content:space-between;
     flex-wrap:wrap
     }
     
     .rightbuttons .navbutton {
-    width:50%;
+    width:30%;
     padding: 1rem 1.75rem;
     filter:drop-shadow(0px 5px 5px #2a2a2a1a);
     }
@@ -393,6 +393,13 @@
     font-size:1.2rem;
     border:1px solid #f7a39b95;
     background-color:#f7a39b
+    }
+
+    .ziplookupbotton:hover{
+        cursor: pointer;
+        background-color:#ec8076;
+        transition:background-color 150ms ease-out;
+
     }
     
     .buttonandmap img {
@@ -1001,8 +1008,12 @@
         }
     }
   
-  
-    
+    @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:landscape) {
+    .jumbotron h2{
+        font-size: 2.5rem;
+        padding-bottom: 1.2rem;
+    }
+}
     @media only screen and (min-width: 481px) and (max-width: 1024px) {
 
     h1{
@@ -1014,10 +1025,6 @@
         display:none;
     }
 
-    .jumbotron h2{
-        font-size: 3rem;
-        padding-bottom: 1.2rem;
-    }
 
     
     .menu {
@@ -1073,7 +1080,12 @@
     }
 
     .caretype h2{
-        font-size: 1.7rem;
+        font-size: 1.3rem;
+        width: 125%;
+    }
+
+    .caretype h3{
+        font-size: 1rem;
     }
     
     .buttonandmap {
@@ -1138,6 +1150,20 @@
         .jumbotron{
             height: 28vh;
         }
+
+    @media only screen and (max-width: 670px) and (orientation:landscape){
+
+        .caretype h2 {
+            font-size: 1.3rem;
+        }
+
+    }
+
+
+    .jumbotron h2{
+        font-size: 3rem;
+        padding-bottom: 1.2rem;
+    }
 
         .caretype h2{
             font-size: 1.4rem;
@@ -1313,12 +1339,14 @@
     
     .jumbotron h2 {
         font-size: 2rem;
-        width: 93%;
+        width: 91%;
+        padding-bottom: 1rem;
     }
 
     .jumbotron a {
         margin-top: .3rem;
         padding: 1rem 2.5rem;
+        font-size: 1.2rem;
     }
 
     .rightbuttons{
@@ -1329,7 +1357,8 @@
    .rightbuttons .navbutton {
         width: 65%;
         margin-left: 0;
-        padding: 1.4rem 1.75rem;
+        padding: .75rem 1.5rem;
+        margin: .75rem 0;
     }
 
     
