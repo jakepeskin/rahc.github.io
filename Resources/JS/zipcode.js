@@ -194,7 +194,7 @@ function zipcode() {
         link = 'westhollywood.html';
         window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
     } else{
-        link = 'areas';
+        link = 'areas/directory.html';
         window.location.assign("https://www.rosesagencyhomecare.com/" + link); 
     }
     
