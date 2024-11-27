@@ -346,6 +346,7 @@ video{
 
     .jumbocard{
         width: 40%;
+        margin-left: 4rem;
     }
     
 
@@ -446,6 +447,10 @@ video{
 
     .desktop-tablet {
         display: none;
+    }
+
+    .cardh1{
+        font-size: 1.6rem;
     }
 
     .cityzipgrid{
