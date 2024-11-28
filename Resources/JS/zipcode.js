@@ -168,34 +168,4 @@ function zipcode() {
         window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
     } else if (test == '90069'){
         link = 'sunsetplaza.html';
-        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
-    } else if (test == '91356'){
-        link = 'tarzana.html';
-        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
-    } else if (test == '91602'){
-        link = 'tolucalake.html';
-        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
-    } else if (test == '90290' || test == '91364'){
-        link = 'topangacanyon.html';
-        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
-    } else if (test == '91608'){
-        link = 'universalstudios.html';
-        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
-    } else if (test == '90291'){
-        link = 'venice.html';
-        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
-    } else if (test == '91401' || test == '91606'){
-        link = 'valleyglen.html';
-        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
-    } else if (test == '91367'){
-        link = 'woodlandhills.html';
-        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
-    } else if (test == '90046' || test =='90048'){
-        link = 'westhollywood.html';
-        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
-    } else{
-        link = 'areas/directory.html';
-        window.location.assign("https://www.rosesagencyhomecare.com/" + link); 
-    }
-    
-}
+        window.loca

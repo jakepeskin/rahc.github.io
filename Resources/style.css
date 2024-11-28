@@ -1618,46 +1618,4 @@
     background-color:#f7a39b
     }
     
-    .bottom-button a {
-    display:flex;
-    align-items:center;
-    font-size: 1.4rem;
-    text-decoration:none;
-    color:#181818;
-    width:30%;
-    justify-content:space-around;
-    }
-    
-    .fa-phone-volume {
-    padding-right:.3rem
-    }
-    
-    footer {
-    width:100%
-    }
-    
-    .footerlogo img {
-    width:90%
-    }
-    
-    .footeraddress p {
-    font-size:1rem
-    }
-    
-    .socialbuttons-desktop {
-    display:none
-    }
-    
-    .footercontents {
-    display:flex;
-    flex-direction:column
-    }
-    
-    .footeraddress {
-    padding:1rem 0
-    }
-    
-    .allrights {
-    padding-top:.5rem
-    }
-}
+    .
