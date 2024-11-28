@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^rosesagencyhomecare.com$
+RewriteRule ^(.*)$ https://rosesagencyhomecare.com/$1 [R=301,L]
