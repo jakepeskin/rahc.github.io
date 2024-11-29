@@ -1359,6 +1359,20 @@
         width: 83%;
     }
 
+    .zipsect{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ziplookupbotton{
+        font-size: 1rem;
+    }
+
+    .PagePromo-input {
+        font-size: 1rem;
+    }
+
    .rightbuttons .navbutton {
         width: 65%;
         margin-left: 0;
