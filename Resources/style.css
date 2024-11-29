@@ -928,6 +928,11 @@
     margin:.5rem 0;
     font-weight:lighter
     }
+
+    .greenphone{
+        color: green;
+        width: 30%;
+    }
     
     @media only screen and (min-width: 1385px) {
         .blog-section a {
@@ -1033,13 +1038,12 @@
     
     .logo {
     max-width: 100%;
-    
+    padding-left: 1.6rem;
     margin-top: 0;
     }
 
     .logoa{
-        max-width: 17%;
-        padding-right: 9rem;
+        max-width: 19%;
     }
 
     .jumbotroncontents {
@@ -1195,7 +1199,7 @@
     
     .menu {
     grid-template-areas:'button logo';
-    grid-template-columns:1fr 5fr
+    grid-template-columns:1fr 4fr 1fr
     }
     
     .fa-bars {
@@ -1291,14 +1295,14 @@
     
     .logo {
     max-width:100%;
-    
+    padding-left: .7rem;
     margin-top: 0;
     }
     
     .logoa {
-        max-width:34%;
-        padding-right:3rem;
+        max-width:41%;
     }
+
     
     .jumbotron {
     padding:0;
