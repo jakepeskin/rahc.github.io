@@ -884,9 +884,19 @@
     
     .footeraddress {
     width:65%;
-    padding:1.5rem 0
+
     }
     
+    .footerotherp{
+        padding: .25rem 0;
+        font-size: 1rem;
+    }
+
+    .footertitle{
+        font-size: .8rem;
+        padding-top: .5rem;
+    }
+
     .allrights {
     padding-top:.75rem
     }
