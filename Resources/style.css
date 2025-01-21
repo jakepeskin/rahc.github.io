@@ -39,7 +39,7 @@
     margin:.5rem .3rem;
 
     }
-    
+
     h3 {
     font-size:1.6rem;
     font-weight:500
@@ -137,7 +137,7 @@
     cursor:pointer
     }
     
-    .navbutton h2 {
+    .navbutton p {
     font-size:1.1rem;
     font-weight:100;
     position:relative;
@@ -312,7 +312,7 @@
     padding:-.5rem;
     }
     
-    .reviews h2 {
+    .reviewtext {
     font-size:2.2rem;
     margin:0 auto;
     color:#342c00
