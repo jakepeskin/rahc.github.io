@@ -1629,13 +1629,13 @@
     }
     
     .blogs.mobile h4 {
-    width:60%;
-    font-size:1.4rem
+    font-size:1.4rem;
+    width: 16vh;
     }
     
     .blogs.mobile a {
-        padding: 2rem 1rem;
         display: flex;
+        width:16vh;
         align-items: center;
         align-content: flex-start;
         flex-wrap: wrap;
@@ -1695,4 +1695,10 @@
     }
     
     .footeraddress {
-    padding
+    padding:1rem 0
+    }
+    
+    .allrights {
+    padding-top:.5rem
+    }
+}
