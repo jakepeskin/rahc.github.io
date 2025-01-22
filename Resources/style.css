@@ -1581,7 +1581,7 @@
     
     .badges {
     flex-direction:column;
-    height:65vh
+    height:70vh
     }
     
     .bohce {
@@ -1602,6 +1602,10 @@
     
     .cahsah {
     width:60%
+    }
+
+    .va{
+        width: 37%;
     }
     
     .accordion i {
@@ -1691,10 +1695,4 @@
     }
     
     .footeraddress {
-    padding:1rem 0
-    }
-    
-    .allrights {
-    padding-top:.5rem
-    }
-}
+    padding
