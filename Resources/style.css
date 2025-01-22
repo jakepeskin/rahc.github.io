@@ -1317,6 +1317,13 @@
         max-width:41%;
     }
 
+
+    .mobiler{
+        display: flex;
+        width: 45%;
+        font-size: 2rem;
+        padding: .75rem 0;
+    }
     
     .jumbotron {
     padding:0;
@@ -1324,7 +1331,6 @@
     position:relative;
     top: 4.5rem;
     background-position-x: -32rem;
-    background-image:url("../Resources/Stock%20Photos/Jumbotron/Holdingarm.jpg");
     }
 
     .jumbotroncontents {
@@ -1467,7 +1473,6 @@
     .reviews {
     display:flex;
     flex-wrap:wrap;
-    flex-direction:column;
     position:relative;
     width:100%;
     margin:0 auto;
@@ -1690,4 +1695,6 @@
     }
     
     .allrights {
-    pad
+    padding-top:.5rem
+    }
+}
