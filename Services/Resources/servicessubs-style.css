@@ -40,6 +40,10 @@ p a:hover{
     color: #EC7F76;
 }
 
+.navbutton p{
+    margin: .5rem .3rem;
+}
+
 body li{
     font-size: 1.15rem;
     margin: 1rem 0;
