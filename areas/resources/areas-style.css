@@ -491,6 +491,22 @@ video{
         display: none;
     }
 
+    .google{
+        align-items: center;
+    }
+
+    .yelp{
+        align-items: center;
+    }
+
+    .care{
+        align-items: center;
+    }
+
+    .reviewtext{
+        font-size: 2rem;
+    }
+
     .miniaboutright {
         width: 100%;
     }
