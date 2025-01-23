@@ -1,4 +1,3 @@
 RewriteEngine On
 RewriteCond %{HTTP_HOST} !^www.rosesagencyhomecare.com$
-RewriteRule ^(.*)$ https://www.rosesagencyhomecare.com/$1 [R=301,L]
-DirectoryIndex index.html
+RewriteRule ^(.*)$ https://www.rosesagencyhomecare.com/$1 [
