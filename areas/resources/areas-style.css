@@ -597,4 +597,21 @@ video{
 
     .ctah3{
         margin-block-start: 0;
-   
+        font-size: 1.3rem;
+        padding-bottom: 1rem;
+    }
+
+    .Dls a{
+        flex-direction: column;
+    }
+
+    .badges{
+        height: 90vh;
+    }
+
+    .va{
+        width: 33%;
+    }
+
+
+}
