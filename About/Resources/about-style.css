@@ -244,7 +244,7 @@ video{
     padding: 0 2rem 0 4rem;
 }
 
-.rose-CareU{
+.rose-careU{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -252,9 +252,8 @@ video{
     padding: 0 2rem 0 2rem;
 }
 
-.rose-CareU img{
+.rose-careU img{
     width: 50%;
-    padding-bottom: 1rem;
 }
 
 .hiringcontents svg{
