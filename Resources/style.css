@@ -790,10 +790,12 @@
     font-size:2.3rem
     }
     
-    .blog-section a {
+    .blog-section p {
     font-weight:100;
     padding:0 3rem;
     font-size:1.2rem;
+    margin: 0;
+    line-height: 1.5rem;
     color:#eee;
     text-decoration:none
     }
@@ -1693,11 +1695,7 @@
     display:flex;
     flex-direction:column
     }
-    
-    .footeraddress {
-    padding:1rem 0
-    }
-    
+
     .allrights {
     padding-top:.5rem
     }

@@ -166,8 +166,11 @@ h3 {
     color: white;
 }
 
-.aslashd h2:hover{
-    color: #f7a39b;
+.caretype-header:hover{
+    h2{
+        color: #f7a39b;
+    }
+
 }
 
 .caretype h3{
