@@ -24,10 +24,19 @@ h2{
     text-align: center;
 }
 
+.contentsect h2{
+    color: #F15B4E;
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: 500;
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+}
+
 h4{
     font-size: 1.35rem;
     color: #EC7F76;
-    padding: 4rem 0 1rem 0;
+    padding: 1.5rem 0 1rem 0;
     margin: 0;
     font-weight: normal;
 }
@@ -406,6 +415,64 @@ footer li{
     align-self: start;
 }
 
+/*Find Us On The Web*/
+
+.findusjumbo{
+    background-image: url('../../Subpages/Resources/FindUsOnline.jpg');
+}
+
+.findussubhead{
+    background-size: 10% !important;
+}
+
+.bullets{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+.linklist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topsect{
+    padding-top: 1rem !important;
+}
+
+.bottomsect{
+    padding-bottom: 5rem !important;
+}
+
+.linklist h2{
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: 500;
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+}
+
+.locationlink{
+    font-size: 1.3rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.webp{
+    margin-bottom: 2rem;
+}
+
+.listheader{
+    font-weight: 1000;
+}
+
+.findusmidpic{
+    margin: 0 auto;
+    border-radius: 100px;
+    width: 45%;
+}
+
 
 @media only screen and (max-width: 1024px) {
 
@@ -524,6 +591,14 @@ footer li{
         text-align: left;
     }
 
+    .footerotherp{
+        text-align: left;
+    }
+
+    .footertitle{
+        text-align: left;
+    }
+
     .dot{
         padding: 0;
     }
@@ -623,4 +698,23 @@ footer li{
         background-position-y: 0;
         background-position-x: -19rem;
     }
+
+    .linklist h2{
+        font-size: 1.6rem;
+    }
+
+    .locationlink{
+        font-size: 1.2rem;
+    }
+
+    .bullets{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .findussubhead{
+    margin: 9rem auto 4rem;    
+    background-size: 22% !important;
+}
 }
