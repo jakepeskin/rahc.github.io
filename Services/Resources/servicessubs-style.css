@@ -426,7 +426,7 @@ footer li{
 }
 
 .findussubhead{
-    background-size: 10% !important;
+    background-size: 9% !important;
 }
 
 .bullets{
@@ -556,6 +556,10 @@ footer li{
 
     .subhead{
         margin: 4rem auto 3rem auto;
+    }
+
+    .bullets{
+        justify-content: center;
     }
 
 }
