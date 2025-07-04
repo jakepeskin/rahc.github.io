@@ -577,6 +577,7 @@ footer li{
         font-size: 2.5rem;
     }
 
+   
    body p{
         font-size: 1rem;
         text-align: center;
@@ -697,6 +698,21 @@ footer li{
         margin-bottom: 9rem;
         background-position-y: 0;
         background-position-x: -19rem;
+    }
+
+    .cta{
+        flex-direction: column;
+        padding: 2rem 2.5rem;
+    }
+
+     .ctah1{
+        font-size: 1.5rem !important;
+    }
+
+    .servicebutton{
+        font-size: 1.1rem;
+        margin-top: 1.5rem;
+        width: 81%;
     }
 
     .linklist h2{
