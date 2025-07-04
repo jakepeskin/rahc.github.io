@@ -46,7 +46,11 @@ a{
 }
 
 p a:hover{
-    color: #EC7F76;
+    color: #f7a39b;
+}
+
+li a:hover{
+    color: #f7a39b;
 }
 
 .navbutton p{
