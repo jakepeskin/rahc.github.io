@@ -23,7 +23,7 @@ function zipcode() {
         link = 'fairfax.html';
         window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
     } else if (test == '90049'){
-        link = 'burbank.html';
+        link = 'burbank.html'; 
         window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
     } else if (test == '90068'){
         link = 'beachwoodcanyon.html';
