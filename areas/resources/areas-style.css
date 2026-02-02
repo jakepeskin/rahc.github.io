@@ -44,6 +44,14 @@
     margin-bottom: 8rem;
 }
 
+.countytitle{
+    margin: auto;
+    text-align: center;
+    color: #F15B4E;
+    font-size: 2rem;
+    padding-bottom: 3rem;
+}
+
 .cityzipcell{
     background-color: #FBFBFB;
     padding: 1rem;
@@ -296,6 +304,22 @@ video{
 
 .blogrect{
     margin: 2rem auto
+}
+
+.sandiegocell{
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 3;
+    grid-column-end: 7;
+}
+
+.sandiegocell h3{
+    text-align: center;
+}
+
+.SDRows{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 

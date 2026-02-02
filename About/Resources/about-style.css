@@ -30,7 +30,7 @@ h4 {
 /* Jumobtron/Quote */
 
 .jumbotron{
-    background-image: url("../Resources/Jumbotron2.jpg");
+    background-image: url("../Resources/Jumbotron3.jpg");
     justify-content: center;
     background-position-y: 7%;
 }
@@ -88,7 +88,7 @@ h4 {
     font-size: 1.2rem;
 }
 .headshot {
-    width: 23%;
+    width: 26%;
     text-align: center;   
     display: flex;
     flex-direction: column;
