@@ -309,18 +309,14 @@ video{
 .sandiegocell{
     display: flex;
     flex-direction: column;
-    grid-column-start: 3;
-    grid-column-end: 7;
+
 }
 
 .sandiegocell h3{
     text-align: center;
 }
 
-.SDRows{
-    display: flex;
-    justify-content: space-evenly;
-}
+
 
 
 @media only screen and (min-width: 1258px) {
@@ -335,6 +331,15 @@ video{
         grid-row-end: 13;
     }
 
+    .sandiegocell{
+        grid-column-start: 3;
+        grid-column-end: 7;
+    }
+
+    .SDRows{
+    display: flex;
+    justify-content: space-evenly;
+    }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1281px) {

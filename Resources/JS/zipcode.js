@@ -196,6 +196,231 @@ function zipcode() {
     } else if (test == '90046' || test =='90048'){
         link = 'westhollywood.html';
         window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '90046' || test =='90048'){
+        link = 'westhollywood.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91901'){
+        link = 'apline.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91902'){
+        link = 'bonita.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92003'){
+        link = 'bonsall.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92004'){
+        link = 'borregosprings.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91905'){
+        link = 'boulevard.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92055'){
+        link = 'camppendelton.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91906'){
+        link = 'cammpo.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91906'){
+        link = 'cardiffbythesea.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92008' || test == '92009' || test == '92010' || test == '92011'){
+        link = 'cardiffbythesea.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91910'){
+        link = 'chulavista.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92007'){
+        link = 'coronado.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92014'){
+        link = 'delmar.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91911'){
+        link = 'descanso.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91917'){
+        link = 'dulzura.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92019' || test == '92020' || test == '92021'){
+        link = 'elcajon.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92024'){
+        link = 'encinitas.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92025' || test == '92026' || test == '92027' || test == '92028'){
+        link = 'fallbrook.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92028'){
+        link = 'fallbrook.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91931'){
+        link = 'guatay.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91932'){
+        link = 'imperialbeach.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91934'){
+        link = 'jacumba.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91935'){
+        link = 'jamul.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91936'){
+        link = 'julian.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92037' || test == '92092' || test =='92093'){
+        link = 'lajolla.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91941' || test == '91942'){
+        link = 'lamesa.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92040'){
+        link = 'lakeside.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91945'){
+        link = 'lemongrove.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91950'){
+        link = 'nationalcity.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92054' || test == '92056' || test == '92057' || test == '92058'){
+        link = 'oceanside.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92059'){
+        link = 'pala.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92064'){
+        link = 'poway.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92065'){
+        link = 'ramona.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92066'){
+        link = 'ranchita.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92067' || test == '92091'){
+        link = 'ranchosantafe.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92101' || test == '92102' || test == '92103' || test == '92104' || test == '92105' || test == '92106' || test == '92107' || test == '92108' || test == '92109' || test == '92110' || test == '92111' || test == '92113' || test == '92114' || test == '92115' || test == '92116' || test == '92117' || test == '92118' || test == '92119' || test == '92120' || test == '92121' || test == '92122' || test == '92123' || test =='92124' || test == '92126' || test == '92127' || test == '92128' || test == '92129' || test == '92130' || test == '92131' || test == '92134' || test == '92135' || test == '92136' || test == '92139' || test == '92140' || test == '92145' || test == '92147' || test == '92147' || test == '92154' || test == '92179' ){
+        link = 'sandiego.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92069' || test == '92078'){
+        link = 'sanmarcos.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92173'){
+        link = 'sanysidro.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92070'){
+        link = 'santaysabel.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92071'){
+        link = 'santee.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92075'){
+        link = 'solanabeach.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91977' || test == '91978'){
+        link = 'springvalley.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91980'){
+        link = 'tecate.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92082'){
+        link = 'valleycenter.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92081' || test == '92083' || test == '92084'){
+        link = 'vista.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92086'){
+        link = 'warnersprings.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '93010' || test == '93011' || test == '93012'){
+        link = 'camarillo.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '93015' || test == '93016'){
+        link = 'fillmore.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '93020' || test == '93021'){
+        link = 'moorpark.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '93023' || test == '93024'){
+        link = 'ojai.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '93030' || test == '93031' || test =='93032' || test == '93033' || test == '93034' || test == '93035' || test == '93036'){
+        link = 'oxnard.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '93040'){
+        link = 'warnersprings.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '93062' || test == '93063' || test == '93064' || test == '93065' || test == '93093' || test == '93094' || test == '93099'){
+        link = 'simivalley.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91319' || test == '91320' || test == '91358' || test == '91360' || test == '91361' || test == '91362'){
+        link = 'thousandoaks.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '93001' || test == '93002' || test == '93003' || test == '93004' || test == '93005' || test == '93006' || test == '93007' || test == '93009'){
+        link = 'thousandoaks.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92301' || test == '92325'){
+        link = 'adelanto.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92307' || test == '92308'){
+        link = 'applevalley.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92311' || test == '92312'){
+        link = 'barstow.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92314' || test == '92315' || test == '92339' || test == '92364'){
+        link = 'bigbear.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91708' || test == '91709' || test == '91710' || test == '91763' || test == '91763'){
+        link = 'bigbear.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92324'){
+        link = 'colton.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92331' || test == '92334' || test == '92335' || test == '92336' || test == '92337'){
+        link = 'fontana.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92345'){
+        link = 'hesperia.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92346'){
+        link = 'highland.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92252' || test == '92284'){
+        link = 'joshuatree.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91763'){
+        link = 'montclair.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92363'){
+        link = 'needles.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91758' || test == '91729' || test == '91730' || test == '91737' || test == '91739'){
+        link = 'ontario.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92372' || test == '92374' || test == '92375' ){
+        link = 'redlands.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92376' || test == '92377'){
+        link = 'rialto.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92401' || test == '92404' || test == '92405' || test == '92407' || test == '92408' || test == '92410' || test == '92411' ){
+        link = 'sanbernandino.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92277' || test == '92278'){
+        link = 'twentyninepalms.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '91784' || test == '91786'){
+        link = 'upland.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92392' || test == '92393' || test == '92394' || test == '92395'){
+        link = 'victorville.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
+    } else if (test == '92399'){
+        link = 'yucaipa.html';
+        window.location.assign("https://www.rosesagencyhomecare.com/areas/neighborhoods/" + link);
     } else{
         link = 'areas/directory.html';
         window.location.assign("https://www.rosesagencyhomecare.com/" + link); 
