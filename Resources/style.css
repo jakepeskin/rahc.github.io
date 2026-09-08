@@ -587,6 +587,10 @@
     border-bottom:1px solid #a6a6a6;
     background:radial-gradient(closest-corner,#f7f7f7,#FFF)
     }
+
+    .accoladesmain {
+        width: 62%;
+    }
     
     .badges {
     display:flex;
@@ -601,25 +605,53 @@
     .bohce {
     width:13%
     }
+
+    .bohcemain{
+    width: 11%;
+    }
     
     .bohcp {
     width:13%
+    }
+
+    .bochpmain{
+    width: 11%;
     }
     
     .trcs {
     width:18%
     }
+
+    .trcsmain {
+        width: 16%;
+    }
     
     .tphp {
     width:16%
+    }
+
+    .tphp {
+        width: 14%;
     }
     
     .cahsah {
     width:14%
     }
+
+    .cahsahmain{
+        width: 12%;
+    }
+
+    .pic{
+        width: 14%;
+    }
     
     .va{
         width: 10%;
+    }
+
+    .va{
+        width: 8%;
     }
     
     .faqtext h2 {
