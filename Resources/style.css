@@ -775,7 +775,10 @@
     }
 
     .review-carousel {
-    padding:1rem 0 6rem
+    padding:1rem 0 6rem;
+    height: auto !important;
+    min-height: 250px;
+    overflow: visible !important;
     }
     
     .gallery-cells {
