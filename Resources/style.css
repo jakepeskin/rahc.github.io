@@ -781,6 +781,11 @@
     overflow: visible !important;
     }
     
+.gallery-cell {
+  height: auto !important;
+  overflow: visible !important;
+}
+
     .gallery-cells {
     width:100%;
     margin:0 auto;
