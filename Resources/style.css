@@ -815,9 +815,10 @@
         font-size: 1rem;
     }
 
-    .flickity-viewport {
-        transition: height 0.2s;
-      }
+ .review-carousel .flickity-viewport {
+    overflow: visible !important;
+    transition: height 0.2s ease;
+}
     
     .blog-section {
     width:65%;
