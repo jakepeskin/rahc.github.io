@@ -816,7 +816,6 @@
     }
 
  .review-carousel .flickity-viewport {
-    overflow: hidden !important;
     transition: height 0.2s ease;
 }
     
