@@ -419,8 +419,10 @@ footer li{
     align-self: start;
 }
 
-.reviewbuttoncontainer{
-    margin: auto;
+.review-container{
+    display: flex;
+    justify-content: center;
+    min-width: 13%;
 }
 
 /*Find Us On The Web*/
