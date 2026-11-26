@@ -1618,45 +1618,45 @@
     }
     
     .accolades2 {
-    padding:3rem 2.5rem;
+    padding: 2.5rem;
     margin:5rem auto
     }
     
     .badges {
     flex-direction:column;
-    height:70vh
+    height:104vh
     }
     
     .bohce {
-    width:53%
+    width:42%
     }
     
     .bohcp {
-    width:53%
+    width:42%
     }
     
     .trcs {
-    width:65%
+    width:57%
     }
     
     .tphp {
-    width:62%
+    width:51%
     }
     
     .cahsah {
-    width:60%
+    width:44%
     }
 
     .va{
-        width: 37%;
+        width: 32%;
     }
     
-    .accordion i {
-    display:none
+    .pic{
+        width: 52%;
     }
-    
-    .review-carousel {
-    width:100%
+
+    .testtext{
+        font-size: 1.6rem;
     }
     
     .blog-section {
